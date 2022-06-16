@@ -1,0 +1,631 @@
+20200100003,2020,ICE,3,Karlsruhe,Zürich HB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100004,2020,ICE,4,Zürich HB,Frankfurt(Main),Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100005,2020,ICE,5,Frankfurt(Main),Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100006,2020,EC,6,Interlaken Ost,Hamburg-Altona,Corona: Zug endet 19.3.-24.5. in Basel SBB,ansehen
+20200100007,2020,EC,7,Hamburg-Altona,Interlaken Ost,Corona: Zug beginnt 19.3.-25.5. in Basel SBB,ansehen
+20200100008,2020,EC,8,Zürich HB,Hamburg-Altona,Corona: Zug endet 19.3.-24.5. in Basel SBB,ansehen
+20200100009,2020,EC,9,Hamburg-Altona,Zürich HB,Corona: Zug beginnt 19.3.-25.5. in Basel SBB,ansehen
+20200100010,2020,ICE,10,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,Corona: Zug entfällt 19.3.-24.5. (25.-31.5. Entfall zwischen Köln Hbf und Bruxelles/Brussel),ansehen
+20200100011,2020,ICE,11,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),Corona: Zug entfällt 19.3.-1.6.,ansehen
+"20200100012,2020,ICE,12,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,""Corona: Zug entfällt 19.3.-10.5., 11.5.-13.6. Ausfall ab Köln; bis Köln vereinigt mit ICE 122"",ansehen"
+20210100012,2021,ICE,12,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,bis Köln Hbf vereinigt mit ICE 122/ICE 152 als ICE 12; Corona: Zug entfällt 5.5.-12.6.,ansehen
+20200100013,2020,ICE,13,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),Corona: Zug entfällt 19.3.-3.7.,ansehen
+20210100013,2021,ICE,13,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),Corona: Zug beginnt 5.5.-12.6. in Köln Hbf,ansehen
+20200100015,2020,ICE,15,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),Corona: Zug entfällt 24.3.-31.5. (17.-31.5. Ausfall So); ab Köln vereinigt mit ICE 153 als ICE 15,ansehen
+20200100018,2020,ICE,18,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,Corona: Zug entfällt 24.3.-17.5.; bis Köln Hbf vereinigt mit ICE 250 als ICE 250,ansehen
+20200100040,2020,EC,40,Warszawa Wschodnia,Berlin Hbf,Corona: Zug entfällt 16.3.-27.6.,ansehen
+20210100040,2021,EC,40,Warszawa Wschodnia,Berlin Hbf,Corona: fährt 30.12.-14.5. nur Fr,ansehen
+20200100041,2020,EC,41,Berlin Hbf,Warszawa Wschodnia,Corona: Zug entfällt 16.3.-28.6.,ansehen
+20210100041,2021,EC,41,Berlin Hbf,Warszawa Wschodnia,Corona: fährt bis 22.5. nur Mo,ansehen
+20200100044,2020,EC,44,Warszawa Wschodnia,Berlin Hbf,Corona: Zug entfällt 16.3.-21.6.,ansehen
+20200100045,2020,EC,45,Berlin Hbf,Warszawa Wschodnia,Corona: Zug entfällt 16.3.-22.6.,ansehen
+20200100048,2020,EC,48,Warszawa Wschodnia,Berlin Hbf,Corona: Zug entfällt 16.3.-24.6.,ansehen
+20200100049,2020,EC,49,Berlin Hbf,Warszawa Wschodnia,Corona: Zug entfällt 16.3.-25.6.,ansehen
+20200100052,2020,ECE,52,Milano C,Frankfurt(Main),Corona: Zug entfällt 16.3.-7.6.; bis Basel Bad Bf als EC 52,ansehen
+20210100052,2021,ECE,52,Milano C,Frankfurt(Main),Corona: Zug entfällt bis 30.5.; Zug beginnt 1.-12.6. in Brig,ansehen
+20200100058,2020,EC,58,Gdynia Glowna Osobowa,Berlin Hbf,Corona: Zug entfällt 16.3.-25.6.,ansehen
+20210100058,2021,EC,58,Gdynia Glowna Osobowa,Berlin Hbf,Corona: fährt bis 21.5. nur So,ansehen
+20200100059,2020,EC,59,Berlin Hbf,Gdynia Glowna Osobowa,Corona: Zug entfällt 16.3.-25.6.,ansehen
+20210100059,2021,EC,59,Berlin Hbf,Gdynia Glowna Osobowa,Corona: fährt bis 20.5. nur Sa,ansehen
+20210100061,2021,RJX,61,München,Budapest-Keleti pu.,Corona: Zug entfällt 8.2.-27.3. bis Salzburg Hbf,ansehen
+20210100062,2021,RJX,62,Budapest-Keleti pu.,München,Corona: Zug entfällt 8.2.-27.3. ab Salzburg Hbf,ansehen
+20210100064,2021,RJX,64,Budapest-Keleti pu.,München,Corona: Zug entfällt 8.2.-27.3. ab Salzburg Hbf,ansehen
+20210100065,2021,RJX,65,München,Budapest-Keleti pu.,Corona: Zug entfällt 8.2.-27.3. bis Salzburg Hbf,ansehen
+20210100067,2021,RJX,67,München,Budapest-Keleti pu.,Corona: Zug entfällt 8.2.-27.3. bis Salzburg Hbf,ansehen
+20210100068,2021,RJX,68,Budapest-Keleti pu.,München,Corona: Zug entfällt 8.2.-27.3. ab Salzburg Hbf,ansehen
+20200100070,2020,ICE,70,Chur,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100071,2020,ICE,71,Hamburg-Altona,Chur,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100072,2020,ICE,72,Chur,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100073,2020,ICE,73,Kiel,Zürich HB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100074,2020,ICE,74,Zürich HB,Kiel,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100075,2020,ICE,75,Hamburg-Altona,Chur,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100076,2020,ICE,76,Zürich HB,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100077,2020,ICE,77,Kiel,Zürich HB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100078,2020,ICE,78,Zürich HB,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100079,2020,ICE,79,Hamburg-Altona,Zürich HB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100080,2020,EC,80,Verona Porta Nuova,München,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20200100081,2020,EC,81,München,Bologna C,Corona: Zug entfällt 15.3.-14.6.; fährt 15.-22.6. München Hbf-Innsbruck Hbf,ansehen
+20210100081,2021,EC,81,München,Bologna C,Corona: Zug entfällt 10.1.-10.5.,ansehen
+20200100082,2020,EC,82,Bologna C,München,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210100082,2021,EC,82,Bologna C,München,Corona: Zug entfällt 10.1.-10.5.,ansehen
+20200100083,2020,EC,83,München,Verona Porta Nuova,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210100083,2021,EC,83,München,Verona Porta Nuova,Corona: Zug endet 10.1.-10.5. in Innsbruck Hbf,ansehen
+20200100084,2020,EC,84,Rimini,München,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210100084,2021,EC,84,Rimini,München,Corona: Zug beginnt 10.1.-25.3. in Innsbruck Hbf,ansehen
+20200100085,2020,EC,85,München,Rimini,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210100085,2021,EC,85,München,Rimini,Corona: Zug endet 10.1.-10.5. in Innsbruck Hbf,ansehen
+20200100086,2020,EC,86,Venezia S. Lucia,München,Corona: Zug entfällt 15.3.-14.6.; fährt 15.-22.6. Innsbruck Hbf-München Hbf,ansehen
+20210100086,2021,EC,86,Venezia S. Lucia,München,Corona: Zug entfällt 10.1.-10.5.,ansehen
+20200100087,2020,EC,87,München,Venezia S. Lucia,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210100087,2021,EC,87,München,Venezia S. Lucia,Corona: Zug entfällt 10.1.-10.5.,ansehen
+20200100088,2020,EC,88,Bologna C,München,Corona: Zug entfällt 15.3.-14.6.; fährt 15.-22.6. Innsbruck Hbf-München Hbf,ansehen
+20210100088,2021,EC,88,Bologna C,München,Corona: Zug beginnt 10.1.-10.5. in Innsbruck Hbf,ansehen
+20200100089,2020,EC,89,München,Bologna C,Corona: Zug entfällt 15.3.-14.6.; fährt 15.-22.6. München Hbf-Innsbruck Hbf,ansehen
+20210100089,2021,EC,89,München,Bologna C,Corona: Zug endet 10.1.-10.5. in Verona PN,ansehen
+20200100101,2020,ICE,101,Dortmund,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100102,2020,ICE,102,Basel SBB,Hannover,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100103,2020,ICE,103,Hannover,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100104,2020,ICE,104,Basel SBB,Amsterdam C,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf; bis Köln Hbf vereinigt mit ICE 204 als ICE 104,ansehen
+20200100105,2020,ICE,105,Amsterdam C,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100106,2020,ICE,106,Basel SBB,Köln,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100107,2020,ICE,107,Köln,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100108,2020,ICE,108,Basel SBB,Köln,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100109,2020,ICE,109,Köln,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100120,2020,ICE,120,Frankfurt(Main),Amsterdam C,Corona: Zug entfällt 20.3.-31.5.; ab 14.6. Laufweg über Köln Messe/Deutz(tief),ansehen
+20200100121,2020,ICE,121,Amsterdam C,Frankfurt(Main),Corona: Zug entfällt 20.3.-31.5.; ab 15.6. Laufweg über Köln Messe/Deutz(tief),ansehen
+20200100122,2020,ICE,122,Köln,Amsterdam C,Corona: Zug entfällt 20.3.-31.5.; Zug kommt als ICE 12 aus Frankfurt(M)Hbf,ansehen
+20210100122,2021,ICE,122,Köln,Amsterdam C,Zug kommt als ICE 12 aus Frankfurt(M)Hbf; Corona: Zug fährt 5.5.-12.6. ab Frankfurt(M)Hbf,ansehen
+20200100123,2020,ICE,123,Amsterdam C,Frankfurt(Main),Corona: Zug entfällt 20.3.-31.5.; ab 15.6. Laufweg über Köln Messe/Deutz(tief),ansehen
+20200100128,2020,ICE,128,Frankfurt(Main),Amsterdam C,Corona: Zug entfällt 20.3.-31.5.; ab 15.6. Laufweg über Köln Messe/Deutz(tief),ansehen
+20200100129,2020,ICE,129,Amsterdam C,Frankfurt(Main),Corona: Zug entfällt 20.3.-31.5.; ab 15.6. Laufweg über Köln Messe/Deutz(tief),ansehen
+"20200100140,2020,IC,140,Berlin Ostbahnhof,Amsterdam C,""Corona: Zug endet 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100141,2020,IC,141,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.5.-1.6. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100142,2020,IC,142,Berlin Ostbahnhof,Amsterdam C,""Corona: Zug endet 22.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100143,2020,IC,143,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100144,2020,IC,144,Berlin Ostbahnhof,Amsterdam C,""Corona: Zug endet 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100145,2020,IC,145,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100146,2020,IC,146,Berlin Ostbahnhof,Amsterdam C,""Corona: Zug endet 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100147,2020,IC,147,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100148,2020,IC,148,Berlin Ostbahnhof,Amsterdam C,""Corona: Zug endet 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100149,2020,IC,149,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+20210100151,2021,ECE,151,Frankfurt(Main),Milano C,Corona: Zug entfällt bis 31.5.; Zug endet 1.6.-13.6. in Chiasso,ansehen
+20200100152,2020,ICE,152,Köln,Amsterdam C,Corona: Zug entfällt 20.3.-31.5.; Zug kommt zeitweise als ICE 12 von Frankfurt(M)Hbf,ansehen
+20200100153,2020,ICE,153,Amsterdam C,Köln,Corona: Zug entfällt 20.3.-31.5.; Zug fährt als ICE 15 weiter nach Frankfurt(M)Hbf,ansehen
+20200100158,2020,ICE,158,Frankfurt(Main),Amsterdam C,Corona: Zug entfällt 23.3.-31.5.; bis Köln Hbf vereinigt mit ICE 316,ansehen
+20200100159,2020,ICE,159,Amsterdam C,Köln,Corona: Zug entfällt 20.3.-31.5.; Zug fährt als ICE 19 weiter nach Frankfurt(M)Hbf,ansehen
+20200100170,2020,EC,170,Praha hl.n.,Berlin Hbf,Corona: Zug entfällt 14.3.-24.5.; fährt 25.5.-7.6. als EC 95960,ansehen
+20210100170,2021,EC,170,Praha hl.n.,Berlin Hbf,Corona: Zug entfällt 3.1.-12.6.,ansehen
+20200100171,2020,EC,171,Berlin Hbf,Praha hl.n.,Corona: Zug entfällt 15.3.-25.5.; fährt 26.5.-7.6. als EC 95961,ansehen
+20210100171,2021,EC,171,Berlin Hbf,Praha hl.n.,Corona: Zug entfällt 4.1.-13.6.,ansehen
+20200100172,2020,EC,172,Budapest-Nyugati pu.,Hamburg-Altona,Corona: Zug entfällt seit 14.3. Information zur Wiederaufnahme via www.bahn.de,ansehen
+20200100173,2020,EC,173,Hamburg-Altona,Budapest-Nyugati pu.,Corona: Zug entfällt seit 15.3. Information zur Wiederaufnahme via www.bahn.de,ansehen
+"20200100174,2020,EC,174,Praha hl.n.,Hamburg-Altona,""Corona: Zug entfällt 14.3.-24.5.; Zug endet 25.5.-13.6. in Berlin Hbf, fährt als EC 95980"",ansehen"
+"20200100175,2020,EC,175,Berlin Hbf,Praha hl.n.,""Corona: Zug entfällt 14.3.-24.5., fährt 25.5.-7.6. als EC 95981"",ansehen"
+20210100175,2021,EC,175,Berlin Hbf,Praha hl.n.,Corona: Zug entfällt 4.1.-12.6.,ansehen
+20200100176,2020,EC,176,Praha hl.n.,Hamburg-Altona,Corona: Zug entfällt 14.3.-13.6.,ansehen
+20200100177,2020,EC,177,Hamburg-Altona,Praha hl.n.,Corona: Zug entfällt 15.3.-13.6.,ansehen
+"20200100178,2020,EC,178,Praha hl.n.,Berlin Hbf,""Corona: Zug entfällt 14.3.-24.5., fährt 25.5.-7.6. als EC 95982"",ansehen"
+20210100178,2021,EC,178,Praha hl.n.,Berlin Hbf,Corona: Zug entfällt 4.1.-12.6.,ansehen
+"20200100179,2020,EC,179,Hamburg-Altona,Praha hl.n.,""Corona: Zug entfällt 15.3.-24.5.; Zug 25.5.-13.6. vorübergehend in Berlin Hbf, fährt als EC 95983"",ansehen"
+20200100180,2020,IC,180,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100181,2020,IC,181,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100182,2020,IC,182,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100183,2020,IC,183,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100184,2020,IC,184,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100185,2020,IC,185,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100186,2020,IC,186,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100187,2020,IC,187,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100188,2020,IC,188,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100189,2020,IC,189,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100190,2020,EC,190,München,Basel SBB,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100191,2020,EC,191,Basel SBB,München,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100194,2020,EC,194,München,Zürich HB,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100195,2020,EC,195,Zürich HB,München,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100196,2020,EC,196,München,Zürich HB,Corona: Zug entfällt 16.3.-8.6.,ansehen
+20200100197,2020,EC,197,Zürich HB,München,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100200,2020,ICE,200,Basel SBB,Köln,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100201,2020,ICE,201,Köln,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100202,2020,ICE,202,Basel SBB,Köln,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100203,2020,ICE,203,Köln,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100204,2020,ICE,204,Köln,Dortmund,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf; Zug kommt als ICE 104 aus Basel SBB,ansehen
+20200100205,2020,ICE,205,Dortmund,Basel Bad Bf,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100208,2020,ICE,208,Basel SBB,Kiel,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf; ab 13.6. Laufweg ab Essen üb Recklingh. (o.Halt),ansehen
+20200100209,2020,ICE,209,Kiel,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100222,2020,ICE,222,Frankfurt(Main),Amsterdam C,Corona: Zug entfällt 20.3.-31.5.; ab 15.6. Mo-Fr Laufweg über Köln Messe/Deutz(tief),ansehen
+"20200100240,2020,IC,240,Berlin Ostbahnhof,Amsterdam C,""Corona: Zug endet 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100241,2020,IC,241,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.-31.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+"20200100242,2020,IC,242,Hannover,Amsterdam C,""Corona: Zug endet 23.3.-5.4., 25.-30.5. in Bad Bentheim; Zug entfällt 6.4.-43.5."",ansehen"
+20200100243,2020,IC,243,Amsterdam C,Hannover,Corona: Zug beginnt 22.3.-5.4. in Bad Bentheim; Zug entfällt 6.4.-24.5.,ansehen
+20200100244,2020,IC,244,Bad Bentheim,Amsterdam C,Corona: Zug entfällt 6.4.-24.5.,ansehen
+"20200100245,2020,IC,245,Amsterdam C,Berlin Ostbahnhof,""Corona: Zug beginnt 23.3.-5.4., 25.-30.5. in Bad Bentheim; Zug entfällt 6.4.-24.5."",ansehen"
+20200100246,2020,EC,246,Warszawa Wschodnia,Berlin Hbf,Corona: Zug entfällt 14.-21.6.,ansehen
+20200100247,2020,EC,247,Berlin Hbf,Warszawa Wschodnia,Corona: Zug entfällt 14.-21.6.,ansehen
+20200100248,2020,EC,248,Warszawa Wschodnia,Berlin Hbf,Corona: Zug entfällt 16.3.-26.6.,ansehen
+20210100248,2021,EC,248,Warszawa Wschodnia,Berlin Hbf,Corona: Zug entfällt bis 10.6.,ansehen
+20200100249,2020,EC,249,Berlin Hbf,Warszawa Wschodnia,Corona: Zug entfällt 16.3.-27.6.,ansehen
+20210100249,2021,EC,249,Berlin Hbf,Warszawa Wschodnia,Corona: Zug entfällt bis 12.6.,ansehen
+20200100256,2020,RJ,256,Graz,Berlin-Charlottenburg,Corona: Zug entfällt 4.5.-13.6.,ansehen
+20200100257,2020,RJ,257,Berlin Hbf,Graz,Corona: Zug entfällt 5.5.-14.6.,ansehen
+20210100260,2021,RJX,260,Wien,München,Corona: Zug entfällt 8.2.-27.3. ab Salzburg Hbf,ansehen
+20210100261,2021,RJX,261,München,Budapest-Keleti pu.,Corona: Zug entfällt 8.2.-27.3. bis Salzburg Hbf,ansehen
+20210100262,2021,RJX,262,Wien,München,Corona: Zug entfällt 8.2.-27.3. ab Salzburg Hbf,ansehen
+20210100265,2021,RJX,265,München,Wien,Corona: Zug entfällt 8.2.-27.3. bis Salzburg Hbf,ansehen
+20200100271,2020,ICE,271,Frankfurt(Main),Chur,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100272,2020,ICE,272,Zürich HB,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100273,2020,ICE,273,Hamburg-Altona,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100274,2020,ICE,274,Basel SBB,Berlin Hbf,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100275,2020,ICE,275,Berlin Ostbahnhof,Interlaken Ost,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100276,2020,ICE,276,Basel SBB,Berlin Ostbahnhof,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100277,2020,ICE,277,Berlin Ostbahnhof,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100278,2020,ICE,278,Interlaken Ost,Berlin Ostbahnhof,Corona: Zug beginnt 19.3.-25.5. in Basel Bad Bf,ansehen
+20200100279,2020,ICE,279,Berlin Ostbahnhof,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100280,2020,IC,280,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100281,2020,IC,281,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100282,2020,IC,282,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100283,2020,IC,283,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100284,2020,IC,284,Zürich HB,Stuttgart,Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100285,2020,IC,285,Stuttgart,Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100286,2020,EC,286,Innsbruck,München,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210100286,2021,EC,286,Innsbruck,München,Corona: Zug entfällt 10.1.-10.5.,ansehen
+20200100287,2020,EC,287,München,Innsbruck,Corona: Zug entfällt 15.3.-14.6.,ansehen
+20210100287,2021,EC,287,München,Innsbruck,Corona: Zug entfällt 10.1.-10.5.,ansehen
+20200100288,2020,EC,288,Innsbruck,München,Corona: Zug entfällt 15.3.-14.6.,ansehen
+20200100289,2020,EC,289,München,Innsbruck,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20200100292,2020,ICE,292,Zürich HB,Berlin Ostbahnhof,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100294,2020,NJ,294,Roma Termini,München,Corona: Zug endet seit dem 16.3. in Villach Hbf; Zug entfällt 30./31.3.-25./26.06.,ansehen
+20210100294,2021,NJ,294,Roma Termini,München,Corona: Zug entfällt bis 24.5.,ansehen
+20200100295,2020,NJ,295,München,Roma Termini,Corona: Zug beginnt seit dem 16.3. in Villach Hbf; Zug entfällt seit dem 31.3./1.4.-26./27.6.,ansehen
+20210100295,2021,NJ,295,München,Roma Termini,Corona: Zug entfällt bis 25.5.,ansehen
+20200100314,2020,ICE,314,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,Corona: Zug entfällt 23.3.-31.7.,ansehen
+"20210100314,2021,ICE,314,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,""Corona: Zug entfällt 4.1.-26.3., 5.5.-12.6."",ansehen"
+20200100315,2020,ICE,315,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),Corona: Zug entfällt 23.3.-26.6.,ansehen
+"20210100315,2021,ICE,315,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),""Corona: Zug entfällt 4.1.-26.3., 5.5.-12.6."",ansehen"
+20200100316,2020,ICE,316,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,Corona: Zug entfällt 23.3.-1.7.; bis Köln Hbf vereinigt mit ICE 158,ansehen
+"20210100316,2021,ICE,316,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,""Corona: Zug endet 4.1.-26.3., 5.5.-12.6. in Köln Hbf"",ansehen"
+20200100317,2020,ICE,317,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),Corona: Zug entfällt 23.3.-1.8.,ansehen
+"20210100317,2021,ICE,317,Bruxelles-Midi/Brussel-Zuid,Frankfurt(Main),""Corona: Zug beginnt 4.1.-26.3., 5.5.-12.6. in Köln Hbf"",ansehen"
+20200100318,2020,ICE,318,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20210100318,2021,ICE,318,Frankfurt(Main),Bruxelles-Midi/Brussel-Zuid,Corona: Zug endet bis 27.3. sowie 5.5.-12.6. in Köln Hbf,ansehen
+20200100319,2020,ICE,319,Bruxelles-Midi/Brussel-Zuid,Köln,Corona: Zug entfällt 23.3.-13.6.,ansehen
+"20210100319,2021,ICE,319,Bruxelles-Midi/Brussel-Zuid,Köln,""Corona: Zug entfällt 13.12.-27.3., 3.5.-12.6."",ansehen"
+20200100370,2020,ICE,370,Basel SBB,Berlin Ostbahnhof,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100371,2020,ICE,371,Berlin Ostbahnhof,Interlaken Ost,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100372,2020,ICE,372,Interlaken Ost,Berlin Ostbahnhof,Corona: Zug beginnt 19.3.-25.5. in Basel Bad Bf,ansehen
+20200100373,2020,ICE,373,Berlin Ostbahnhof,Interlaken Ost,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100374,2020,ICE,374,Basel SBB,Berlin Ostbahnhof,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100375,2020,ICE,375,Berlin Ostbahnhof,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100376,2020,ICE,376,Interlaken Ost,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100377,2020,ICE,377,Berlin Ostbahnhof,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200100378,2020,EC,378,Praha hl.n.,Kiel,Corona: Zug entfällt 14.3.-13.6.,ansehen
+20200100379,2020,EC,379,Kiel,Praha hl.n.,Corona: Zug entfällt 14.3.-14.6.,ansehen
+20200100380,2020,IC,380,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100381,2020,IC,381,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100383,2020,IC,383,Aarhus H,Hamburg,Corona: Zug entfällt 16.3.-27.5.,ansehen
+20200100384,2020,IC,384,Hamburg,Aarhus H,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100385,2020,IC,385,Aarhus H,Hamburg,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100386,2020,IC,386,Hamburg,Aarhus H,Corona: Zug entfällt 16.3.-28.5.,ansehen
+20200100388,2020,IC,388,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100389,2020,IC,389,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100392,2020,IC,392,Hamburg,København H,Corona: Zug entfällt 16.3.-7.6.,ansehen
+20200100393,2020,IC,393,København H,Hamburg,Corona: Zug entfällt 16.3.-8.6.,ansehen
+20200100394,2020,IC,394,Hamburg,København H,Corona: Zug entfällt 16.3.-28.5.,ansehen
+20200100395,2020,IC,395,København H,Hamburg,Corona: Zug entfällt 16.3.-27.5.,ansehen
+20200100396,2020,IC,396,Hamburg,København H,Corona: Zug entfällt 16.3.-18.6.,ansehen
+20200100397,2020,IC,397,København H,Hamburg,Corona: Zug entfällt 16.3.-18.6.,ansehen
+20200100400,2020,NJ,400,Hildesheim,Hamburg-Altona,Corona: Zug entfällt 19.3.-25.6.; Zug kommt als NJ 470 aus Zürich HB,ansehen
+20210100400,2021,NJ,400,Hildesheim,Hamburg-Altona,Corona: Zug entfällt 12.1.-24.5.; Zug kommt als NJ 470 aus Zürich HB,ansehen
+20200100401,2020,NJ,401,Hamburg,Hildesheim,Corona: Zug entfällt 19.3.-26.6.; Zug fährt als NJ 471 weiter nach Zürich HB,ansehen
+20210100401,2021,NJ,401,Hamburg,Hildesheim,Corona: Zug entfällt 12.1.-24.5.; Zug fährt als NJ 471 weiter nach Zürich HB,ansehen
+20200100420,2020,NJ,420,Innsbruck,Düsseldorf,Corona: Zug beginnt seit dem 16.3. in Nürnberg Hbf; Zug entfällt 30./31.3.-25./26.6.,ansehen
+20210100420,2021,NJ,420,Innsbruck,Amsterdam C,Corona: Zug entfällt 11.1.-23.5.,ansehen
+20200100421,2020,NJ,421,Düsseldorf,Innsbruck,Corona: Zug endet seit dem 16.3. in Nürnberg Hbf; Zug entfällt 31.3./1.4.-26./27.6.,ansehen
+20210100421,2021,NJ,421,Amsterdam C,Innsbruck,Corona: Zug entfällt 12.1.-24.5.,ansehen
+20200100424,2020,NJ,424,Innsbruck,Bruxelles-Midi/Brussel-Zuid,Corona: Zug beginnt seit dem 16.3. in Nürnberg Hbf; Zug entfällt 30./31.3.-25./26.6.,ansehen
+20210100424,2021,NJ,424,Köln West,Bruxelles-Midi/Brussel-Zuid,Corona: Zug entfällt bis 25.5.,ansehen
+20200100425,2020,NJ,425,Bruxelles-Midi/Brussel-Zuid,Innsbruck,Corona: Zug endet seit dem 16.3. in Nürnberg Hbf; Zug entfällt 31.3./1.4.-26./27.6.,ansehen
+20210100425,2021,NJ,425,Bruxelles-Midi/Brussel-Zuid,Köln West,Corona: Zug entfällt bis 25.5.,ansehen
+20200100440,2020,EN,440,Moskva,Berlin Hbf,Corona: Zug entfällt 16.3.-30.9.,ansehen
+20200100441,2020,EN,441,Berlin Hbf,Moskva,Corona: Zug entfällt 16.3.-30.9.,ansehen
+20200100451,2020,ECE,451,Frankfurt(Main),Milano C,Corona: Zug entfällt 16.3.-8.6. ab Basel Bad Bf als EC 451,ansehen
+20200100456,2020,NJ,456,Wien,Berlin-Charlottenburg,Corona: Zug entfällt 16.3.-25.6.,ansehen
+20210100456,2021,NJ,456,Wien,Berlin-Charlottenburg,Corona: Zug entfällt 17.1.-23.5.,ansehen
+20200100457,2020,NJ,457,Berlin-Charlottenburg,Wien,Corona: Zug entfällt 16.3.-26.6.,ansehen
+20210100457,2021,NJ,457,Berlin-Charlottenburg,Wien,Corona: Zug entfällt 18.1.-24.5.,ansehen
+20210100462,2021,EN,462,Budapest-Keleti pu.,München,Corona: Zug entfällt 11.1.-24.5.,ansehen
+20210100463,2021,EN,463,München,Budapest-Keleti pu.,Corona: Zug entfällt 12.1.-24.5.,ansehen
+20200100470,2020,NJ,470,Zürich HB,Berlin Ostbahnhof,Corona: Zug entfällt 19.3.-25.6.,ansehen
+20210100470,2021,NJ,470,Zürich HB,Berlin Hbf,Corona: Zug entfällt 11.1.-23.5.,ansehen
+20200100471,2020,NJ,471,Berlin Ostbahnhof,Zürich HB,Corona: Zug entfällt 19.3.-26.6.,ansehen
+20210100471,2021,NJ,471,Berlin Hbf,Zürich HB,Corona: Zug entfällt 12.1.-24.5.,ansehen
+20200100476,2020,EN,476,Budapest-Keleti pu.,Berlin-Charlottenburg,ab Breclav vereinigt mit EN 456 als EN 456; Corona: Zug entfällt 16.3.-25.6.,ansehen
+20200100477,2020,EN,477,Berlin-Charlottenburg,Budapest-Keleti pu.,bis Breclav vereinigt mit EN 457 als EN 457; Corona: Zug entfällt 16.3.-25.6.,ansehen
+20200100480,2020,IC,480,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100481,2020,IC,481,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100482,2020,IC,482,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100483,2020,IC,483,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100484,2020,IC,484,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100485,2020,IC,485,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100486,2020,IC,486,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100487,2020,IC,487,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100488,2020,IC,488,Zürich HB,Singen(Hohentwiel),Corona: Zug endet 16.3.-24.5. in Schaffhausen,ansehen
+20200100489,2020,IC,489,Singen(Hohentwiel),Zürich HB,Corona: Zug beginnt 16.3.-24.5. in Schaffhausen,ansehen
+20200100490,2020,NJ,490,Wien,Hamburg-Altona,Corona: Zug entfällt 30./31.3.-25./26.6.,ansehen
+20210100490,2021,NJ,490,Wien,Hamburg-Altona,Corona: Zug entfällt 11.1.-23.5.,ansehen
+20200100491,2020,NJ,491,Hamburg-Altona,Wien,Corona: Zug entfällt 31.3./1.4.-26./27.6.,ansehen
+20210100491,2021,NJ,491,Hamburg-Altona,Wien,Corona: Zug entfällt 12.1.-24.5.,ansehen
+20200100528,2020,ICE,528,Garmisch-Partenkirchen,Dortmund,Corona: Zug beginnt 28.3.-28.5. auch Sa in München Hbf,ansehen
+20200100529,2020,ICE,529,Dortmund,Garmisch-Partenkirchen,Corona: Zug endet 28.3.-28.5. auch Sa in München Hbf,ansehen
+20200100532,2020,ICE,532,Hannover,Oldenburg(Oldb),Corona: Zug beginnt seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100533,2020,ICE,533,Oldenburg(Oldb),Hannover,Corona: Zug endet seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100534,2020,ICE,534,Hamburg,Kiel,Corona: Zug entfällt 6.4.-1.6.; Zug kommt als ICE 584 aus München Hbf,ansehen
+20200100535,2020,ICE,535,Oldenburg(Oldb),Hannover,Corona: Zug endet 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100536,2020,ICE,536,Hannover,Bremen,Corona: Zug beginnt 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100537,2020,ICE,537,Oldenburg(Oldb),Hannover,Corona: Zug endet 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100538,2020,ICE,538,Hannover,Bremen,Corona: Zug beginnt 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100542,2020,ICE,542,Berlin-Gesundbrunnen,Köln,bis Hamm(Westf) vereinigt mit ICE 552 als ICE 542; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100543,2020,ICE,543,Köln,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 553 als ICE 543; Zug endet ab 11.10. in Berlin Ostbahnhof,ansehen
+20200100544,2020,ICE,544,Berlin-Gesundbrunnen,Köln,bis Hamm(Westf) vereinigt mit ICE 554 als ICE 544; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100545,2020,ICE,545,Köln,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 555 als ICE 545; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100546,2020,ICE,546,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 556 als ICE 546; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100547,2020,ICE,547,Düsseldorf,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 557 als ICE 547; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100548,2020,ICE,548,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 558 als ICE 548; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100549,2020,ICE,549,Düsseldorf,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 559 als ICE 549; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100552,2020,ICE,552,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 542 aus Berlin,ansehen
+20200100553,2020,ICE,553,Koblenz,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 543 weiter nach Berlin,ansehen
+20200100554,2020,ICE,554,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 544 aus Berlin,ansehen
+20200100555,2020,ICE,555,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 545 weiter nach Berlin,ansehen
+20200100556,2020,ICE,556,Hamm(Westf),Koblenz,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 546 aus Berlin,ansehen
+20200100557,2020,ICE,557,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 547 weiter nach Berlin,ansehen
+20200100558,2020,ICE,558,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 548 aus Berlin,ansehen
+20200100559,2020,ICE,559,Bonn-Bad Godesberg,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 549 weiter nach Berlin,ansehen
+20200100604,2020,ICE,604,Basel Bad Bf,Köln,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200100633,2020,ICE,633,Bremen,Hannover,Corona: Zug endet 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100634,2020,ICE,634,Hannover,Bremen,Corona: Zug beginnt 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100635,2020,ICE,635,Bremen,Hannover,Corona: Zug endet 17.3.-5.4. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200100636,2020,ICE,636,Hannover,Bremen,Corona: Zug entfällt 6.4.-1.6.,ansehen
+20200100640,2020,ICE,640,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 650 als ICE 640; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100641,2020,ICE,641,Düsseldorf,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 651 als ICE 641; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100642,2020,ICE,642,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 652 als ICE 642; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100643,2020,ICE,643,Düsseldorf,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 653 als ICE 643; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100644,2020,ICE,644,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 654 als ICE 644; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100645,2020,ICE,645,Düsseldorf,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 655 als ICE 645; ab 14.6. ab Hamm(Westf) als ICE 655 nach Berlin,ansehen
+20200100646,2020,ICE,646,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 656 als ICE 646,ansehen
+20200100650,2020,ICE,650,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 640 aus Berlin-Gesundbrunnen,ansehen
+20200100651,2020,ICE,651,Bonn,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 641 weiter nach Berlin-Gesundbrunnen,ansehen
+20200100652,2020,ICE,652,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 642 aus Berlin-Gesundbrunnen,ansehen
+20200100653,2020,ICE,653,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 643 weiter nach Berlin-Gesundbrunnen,ansehen
+20200100654,2020,ICE,654,Berlin-Gesundbrunnen,Bonn-Bad Godesberg,Corona: Zug entfällt 17.3.-5.4.; Mo-Sa bis Hamm vereinigt mit ICE 644,ansehen
+20200100655,2020,ICE,655,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt bis 13.6. als ICE 645 weiter nach Berlin-Gesundbrunnen,ansehen
+20200100656,2020,ICE,656,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 646 aus Berlin-Gesundbrunnen,ansehen
+20200100790,2020,ICE,790,Stuttgart,Wiesbaden,Corona: Zug entfällt 10.4.-14.6.,ansehen
+20200100791,2020,ICE,791,Berlin Ostbahnhof,Frankfurt(M)Flughafen Fernbf,Corona: Zug entfällt 31.3.-13.6.,ansehen
+20200100792,2020,ICE,792,Frankfurt(M)Flughafen Fernbf,Berlin Ostbahnhof,Corona: Zug entfällt 31.3.-13.6.,ansehen
+20200100794,2020,ICE,794,Frankfurt(M)Flughafen Fernbf,Berlin Ostbahnhof,Corona: Zug entfällt 31.3.-13.6.,ansehen
+20200100795,2020,ICE,795,Berlin Ostbahnhof,Frankfurt(M)Flughafen Fernbf,Corona: Zug entfällt 31.3.-13.6.,ansehen
+20200100797,2020,ICE,797,Berlin Südkreuz,Frankfurt(M)Flughafen Fernbf,Corona: Zug entfällt 31.3.-13.6.,ansehen
+20200100798,2020,ICE,798,Frankfurt(M)Flughafen Fernbf,Berlin Ostbahnhof,Corona: Zug entfällt 31.3.-14.6.,ansehen
+20200100799,2020,ICE,799,Frankfurt(Main),Stuttgart,Corona: Zug entfällt 13.4.-14.6.,ansehen
+20200100830,2020,ICE,830,Hannover,Oldenburg(Oldb),Corona: Zug beginnt 17.3.-5.4. in Hannover Hbf; Zug kommt als ICE 840 aus Berlin,ansehen
+20200100832,2020,ICE,832,Hannover,Oldenburg(Oldb),Zug kommt als ICE 842 aus Berlin-Gesundbrunnen,ansehen
+"20200100833,2020,ICE,833,Frankfurt(Main),Berlin-Gesundbrunnen,""Corona: Zug entfällt 24.3.-12.6., bis 8.9. nur Fr"",ansehen"
+20200100836,2020,ICE,836,Berlin Hbf,Saarbrücken,Corona: Zug entfällt 24.3.-12.6.,ansehen
+20200100838,2020,ICE,838,Berlin-Gesundbrunnen,Frankfurt(Main),Corona: Zug entfällt 24.3.-8.9.; ab 5.10. Laufweg über Kassel-Wilhelmshöhe (ohne Halt),ansehen
+20200100841,2020,ICE,841,Oldenburg(Oldb),Berlin-Gesundbrunnen,Corona: Zug beginnt 6.4.-25.5. in Hannover Hbf; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100844,2020,ICE,844,Berlin-Gesundbrunnen,Köln,bis Hamm(Westf) vereinigt mit ICE 854 als ICE 844; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100845,2020,ICE,845,Köln/Bonn Flughafen,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 855 als ICE 845; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100846,2020,ICE,846,Berlin-Gesundbrunnen,Aachen,bis Hamm vereinigt mit ICE 856 als ICE 846; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100847,2020,ICE,847,Köln,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 857 als ICE 847; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100848,2020,ICE,848,Berlin-Gesundbrunnen,Köln,bis Hamm(Westf) vereinigt mit ICE 858 als ICE 848; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100849,2020,ICE,849,Köln,Berlin-Gesundbrunnen,ab Hamm(Westf) vereinigt mit ICE 859 als ICE 849; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100852,2020,ICE,852,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 842 aus Berlin,ansehen
+20200100853,2020,ICE,853,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 843 weiter nach Berlin,ansehen
+20200100854,2020,ICE,854,Hamm(Westf),Koblenz,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 844 aus Berlin,ansehen
+20200100855,2020,ICE,855,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 845/ICE 1045 weiter nach Berlin,ansehen
+20200100856,2020,ICE,856,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 846 (Fr: ICE 1046) aus Berlin,ansehen
+20200100857,2020,ICE,857,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 857 weiter nach Berlin,ansehen
+20200100858,2020,ICE,858,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 848 aus Berlin,ansehen
+20200100859,2020,ICE,859,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 849 weiter nach Berlin,ansehen
+20200100907,2020,ICE,907,Hamburg-Altona,Berlin Südkreuz,Corona: Zug entfällt 6.4.-1.6.,ansehen
+20200100917,2020,ICE,917,Dortmund,Stuttgart,Corona: Zug entfällt 1.11.-12.12.,ansehen
+"20200100918,2020,ICE,918,Stuttgart,Dortmund,""Corona: Zug entfällt Mo-Do, Sa und So ab 1.11."",ansehen"
+"20200100932,2020,ICE,932,Berlin-Gesundbrunnen,Frankfurt(Main),""Corona: Zug entfällt 24.3.-12.6., 3.8.-8.9. So"",ansehen"
+20200100933,2020,ICE,933,Darmstadt,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-12.6.,ansehen
+"20200100935,2020,ICE,935,Saarbrücken,Berlin-Gesundbrunnen,""Corona: Zug entfällt 24.3.-12.6., 9.8.-8.9. So"",ansehen"
+20200100938,2020,ICE,938,Erfurt,Frankfurt(Main),Corona: Zug entfällt 24.3.-8.9.; Zug kommt als ICE 1001 aus Berlin,ansehen
+20200100939,2020,ICE,939,Frankfurt(Main),Berlin Hbf,Corona: Zug entfällt 24.3.-8.9.,ansehen
+20200100940,2020,ICE,940,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 950 als ICE 940; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100941,2020,ICE,941,Düsseldorf,Berlin Südkreuz,ab Hamm(Westf) vereinigt mit ICE 951 als ICE 941; Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100942,2020,ICE,942,Berlin Hbf,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 952 als ICE 942,ansehen
+20200100944,2020,ICE,944,Berlin-Gesundbrunnen,Düsseldorf,Mo-Sa bis Hamm(Westf) vereinigt mit ICE 954 als ICE 944; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100945,2020,ICE,945,Düsseldorf,Berlin-Gesundbrunnen,Zug endet ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100946,2020,ICE,946,Berlin-Gesundbrunnen,Düsseldorf,bis Hamm(Westf) vereinigt mit ICE 956 als ICE 946; Zug beginnt ab 5.10. in Berlin Ostbahnhof,ansehen
+20200100947,2020,ICE,947,Köln,Berlin-Gesundbrunnen,Fr und So ab Hamm(Westf) vereinigt mit ICE 957 als ICE 947,ansehen
+20200100950,2020,ICE,950,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 940 aus Berlin,ansehen
+20200100951,2020,ICE,951,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 941 weiter nach Berlin,ansehen
+20200100952,2020,ICE,952,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 942 aus Berlin,ansehen
+20200100953,2020,ICE,953,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 943 weiter nach Berlin,ansehen
+20200100954,2020,ICE,954,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 944 aus Berlin,ansehen
+20200100955,2020,ICE,955,Köln,Berlin-Gesundbrunnen,Corona: Zug entfällt 17.3.-5.4.; Mo-Fr und So bis Hamm(Westf) (als ICE 945 weiter nach Berlin),ansehen
+20200100956,2020,ICE,956,Hamm(Westf),Köln,Corona: Zug entfällt 17.3.-5.4.; Zug kommt als ICE 946 aus Berlin,ansehen
+20200100957,2020,ICE,957,Köln,Hamm(Westf),Corona: Zug entfällt 17.3.-5.4.; Zug fährt als ICE 947 weiter nach Berlin,ansehen
+20200100984,2020,ICE,984,Hamburg,Hamburg-Altona,Corona: Zug entfällt 6.4.-1.6.; Zug kommt als ICE 584 aus München Hbf,ansehen
+20200100999,2020,ICE,999,Wiesbaden,Stuttgart,Corona: Zug entfällt 11.4.-14.6.,ansehen
+20200101000,2020,ICE,1000,München,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-12.6.,ansehen
+20200101001,2020,ICE,1001,Berlin-Gesundbrunnen,München,Corona: Zug entfällt 24.3.-12.6.; Mo-Fr bis 2.10. bis Erfurt Hbf vereinigt mit ICE 938,ansehen
+20200101002,2020,ICE,1002,München,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-12.6.,ansehen
+20200101003,2020,ICE,1003,Berlin-Gesundbrunnen,München,Corona: Zug entfällt 24.3.-12.6.,ansehen
+20200101004,2020,ICE,1004,München,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-12.6.; Zug endet ab 5.10. in Berlin Hbf,ansehen
+20200101005,2020,ICE,1005,Berlin-Gesundbrunnen,München,Corona: Zug entfällt 24.3.-12.6.; Zug beginnt ab 5.10. in Berlin Hbf,ansehen
+20200101006,2020,ICE,1006,Nürnberg,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-12.6.; Zug kommt als ICE 726 aus München Hbf,ansehen
+20200101007,2020,ICE,1007,Berlin-Gesundbrunnen,München,Corona: Zug entfällt 24.3.-1.6. sowie am 6.6.; Zug beginnt ab 5.10. in Berlin Hbf,ansehen
+20200101008,2020,ICE,1008,München,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-1.6.,ansehen
+20200101009,2020,ICE,1009,Berlin Hbf,München,Corona: Zug entfällt 24.3.-12.6.,ansehen
+20200101010,2020,ICE,1010,Stuttgart,Dortmund,Corona: Zug entfällt ab dem 1.11.,ansehen
+20200101011,2020,ICE,1011,Dortmund,Stuttgart,Corona: Zug entfällt ab dem 1.11.,ansehen
+20200101012,2020,ICE,1012,Stuttgart,Dortmund,Corona: Zug entfällt ab dem 1.11.,ansehen
+20200101013,2020,ICE,1013,Dortmund,Stuttgart,Corona: Zug entfällt ab dem 1.11.,ansehen
+20200101014,2020,ICE,1014,Stuttgart,Düsseldorf,Corona: Zug entfällt ab dem 2.11.,ansehen
+20200101015,2020,ICE,1015,Dortmund,Stuttgart,Corona: Zug entfällt ab dem 1.11.,ansehen
+20200101031,2020,ICE,1031,Hamburg-Altona,Köln,Corona: Zug entfällt ab dem 15.6.,ansehen
+20200201031,2020,IC,1031,Hamburg-Altona,Köln,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101032,2020,ICE,1032,Hannover,Oldenburg(Oldb),Corona: Zug beginnt seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200101036,2020,ICE,1036,Köln,Hamburg-Altona,Corona: Zug entfällt ab dem 11.7.,ansehen
+20200101038,2020,ICE,1038,Köln,Hamburg-Altona,Corona: Zug entfällt ab dem 15.6.,ansehen
+20200101040,2020,ICE,1040,Berlin Ostbahnhof,Düsseldorf,Corona: Zug entfällt ab dem 14.6.,ansehen
+20200101043,2020,ICE,1043,Düsseldorf,Berlin Ostbahnhof,Corona: Zug entfällt ab dem 14.6.,ansehen
+20200101046,2020,ICE,1046,Berlin-Gesundbrunnen,Köln,bis Hamm(Westf) vereinigt mit ICE 856 als ICE 1046,ansehen
+20200201046,2020,ICE,1046,Berlin-Gesundbrunnen,Mönchengladbach,bis Hamm(Westf) vereinigt mit ICE 856 als ICE 1046; Zug beginnt ab 9.10. in Berlin Ostbahnhof,ansehen
+20200101052,2020,EC,1052,Brig,Frankfurt(Main),Corona: Zug entfällt 16.3.-24.5.,ansehen
+20200101077,2020,IC,1077,Frankfurt(Main),Basel Bad Bf,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101092,2020,ICE,1092,München,Nürnberg,Corona: Zug entfällt 24.3.-13.6.; Zug fährt als ICE 92 weiter nach Berlin,ansehen
+20200101093,2020,ICE,1093,Nürnberg,München,Corona: Zug entfällt 24.3.-13.6.; Zug kommt als ICE 93 aus Berlin,ansehen
+20200101102,2020,ICE,1102,Basel SBB,Hannover,Corona: Zug beginnt 20.3.-17.5. in Basel Bad Bf,ansehen
+20200101103,2020,ICE,1103,Köln,Basel SBB,Corona: Zug endet 20.3.-17.5. in Basel Bad Bf,ansehen
+20200101135,2020,ICE,1135,Bremen,Hannover,Corona: Zug entfällt 6.4.-1.6.,ansehen
+20200101138,2020,ICE,1138,Köln,Hamburg-Altona,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101171,2020,ICE,1171,Kiel,Basel SBB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200101172,2020,ICE,1172,Zürich HB,Hamburg-Altona,Corona: Zug beginnt 19.3.-24.5. in Basel Bad Bf,ansehen
+20200101173,2020,ICE,1173,Hamburg-Altona,Zürich HB,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+"20200101174,2020,IC,1174,Basel SBB,Berlin Ostbahnhof,""Corona: Zug entfällt 24.3.-13.6., Zug beginnt am 14.6. in Frankfurt(M)Hbf"",ansehen"
+20200101175,2020,ICE,1175,Kiel,Chur,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200101177,2020,ICE,1177,Hamburg-Altona,Zürich HB,Corona: Zug endet ab 19.3. in Basel Bad Bf,ansehen
+20200101186,2020,IC,1186,Singen(Hohentwiel),Stuttgart,Corona: Zug entfällt 23.3.-24.5.,ansehen
+20200101197,2020,ICE,1197,Berlin Ostbahnhof,Frankfurt(M)Flughafen Fernbf,Corona: Zug entfällt 31.3.-13.6.,ansehen
+"20210101200,2021,ICE,1200,Landeck-Zams,Hamburg-Altona,""Zug endet 26.12., 1.1. in Hamburg Hbf; Corona: Zug beginnt ab 19.2. in München Ost"",ansehen"
+20210101201,2021,ICE,1201,Hamburg-Altona,Landeck-Zams,Corona: Zug endet ab 19.2. in München Ost,ansehen
+20210101202,2021,ICE,1202,Landeck-Zams,München,Corona: Zug entfällt ab 19.2.,ansehen
+20210101203,2021,ICE,1203,München,Landeck-Zams,Corona: Zug entfällt ab 19.2.,ansehen
+20200101206,2020,ICE,1206,Innsbruck,Hamburg-Altona,Corona: Zug entfällt 15.3.-13.6.,ansehen
+20210101206,2021,ICE,1206,Innsbruck,Hamburg-Altona,Corona: Zug beginnt 20.2.-17.4. in München Hbf (27.3. ab Innsbruck Hbf),ansehen
+20200101207,2020,ICE,1207,Kassel-Wilhelmshöhe,Innsbruck,Corona: Zug endet 15.3.-13.6. in München Hbf; Zug kommt als ICE 1577 aus Hamburg Hbf,ansehen
+20210101207,2021,ICE,1207,Kassel-Wilhelmshöhe,Innsbruck,Zug kommt als ICE 1577 aus Hamburg Hbf/Hamburg-Harburg; Corona: Zug entfällt 19.2.-25.3.,ansehen
+20200101221,2020,ICE,1221,Dortmund,Seefeld in Tirol,Corona: Zug endet 20.3.-13.6. in München Hbf,ansehen
+20210101221,2021,ICE,1221,Dortmund,Seefeld in Tirol,Corona: Zug endet 19.2.-25.3. in München Hbf,ansehen
+20200101222,2020,ICE,1222,Innsbruck,Dortmund,Corona: Zug beginnt 22.3.-14.6. in München Hbf,ansehen
+20210101222,2021,ICE,1222,Innsbruck,Dortmund,Corona: Zug beginnt 19.2.-25.3. in München Hbf,ansehen
+20210101223,2021,ICE,1223,Darmstadt,München,ab Würzburg Hbf vereinigt mit ICE 623 als ICE 1223; Corona: Zug entfällt 19.2.-25.3.,ansehen
+20200101271,2020,ICE,1271,Hamburg-Altona,Chur,Corona: Zug endet 19.3.-24.5. in Basel Bad Bf,ansehen
+20200101280,2020,ICE,1280,Schwarzach-St. Veit,München,Corona: Zug entfällt 15.3.-13.6.,ansehen
+20210101280,2021,ICE,1280,Schwarzach-St. Veit,München,Corona: Zug entfällt 20.2.-27.3.,ansehen
+20200101281,2020,ICE,1281,München,Schwarzach-St. Veit,Corona: Zug entfällt 15.3.-13.6.,ansehen
+20210101281,2021,ICE,1281,München,Schwarzach-St. Veit,Corona: Zug entfällt 20.2.-27.3.,ansehen
+20200101282,2020,IC,1282,Innsbruck,München,Corona: Zug entfällt ab dem 15.3.,ansehen
+20200101283,2020,IC,1283,München,Innsbruck,Corona: Zug entfällt ab dem 15.3.,ansehen
+"20200101284,2020,ICE,1284,Schwarzach-St. Veit,Flensburg,""Corona: Zug entfällt 15.3.-13.6., Zug fährt ab 14.6. nur Fr; Zug endet 22.3.-1.5. in Hannover Hbf"",ansehen"
+20200101285,2020,ICE,1285,Hamburg-Altona,Schwarzach-St. Veit,Corona: Zug entfällt 15.3.-13.6.; bis Fulda vereinigt mit ICE 1683 als ICE 1285,ansehen
+20200101286,2020,RJ,1286,Feldkirch,München,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210101286,2021,RJ,1286,Feldkirch,München,Corona: Zug entfällt 19.2.-25.3.,ansehen
+20200101287,2020,RJ,1287,München,Feldkirch,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210101287,2021,RJ,1287,München,Feldkirch,Corona: Zug entfällt 19.2.-25.3.,ansehen
+20200101288,2020,EC,1288,Venezia S. Lucia,München,Corona: Zug entfällt 15.3.-22.6.,ansehen
+20210101288,2021,EC,1288,Venezia S. Lucia,München,Corona: Zug entfällt 10.1.-14.5.,ansehen
+20200101289,2020,EC,1289,München,Venezia S. Lucia,Corona: Zug entfällt 15.3.-14.6.; fährt 15.-22.6. München Hbf-Innsbruck Hbf,ansehen
+20210101289,2021,EC,1289,München,Venezia S. Lucia,Corona: Zug entfällt 10.1.-14.5.,ansehen
+20200101501,2020,ICE,1501,Lichtenfels,München,Corona: Zug entfällt 24.3.-13.6.,ansehen
+20200101520,2020,ICE,1520,München,Nürnberg,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101530,2020,ICE,1530,Hannover,Bremen,Corona: Zug beginnt seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200101531,2020,ICE,1531,Bremen,Hannover,Corona; Zug endet seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200101532,2020,ICE,1532,Hannover,Bremen,Corona: Zug beginnt seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200101537,2020,ICE,1537,Stuttgart,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-8.9.,ansehen
+20200101539,2020,ICE,1539,Bremen,Hannover,Corona: Zug endet seit dem 17.3. in Hannover Hbf; Zug entfällt 6.4.-1.6. auf gesamtem Laufweg,ansehen
+20200101564,2020,ICE,1564,Wolfsburg,Hannover,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101578,2020,ICE,1578,Karlsruhe,Greifswald,Corona: Zug endet 19.3.-23.5. (ab 9.5.:nur Sa) in Rostock Hbf; Zug endet 21.3.-30.4. in Hannover Hbf,ansehen
+20200101583,2020,ICE,1583,Hamburg-Altona,Wolfsburg,Corona: Zug entfällt 23.3.-13.6.; Zug beginnt 20.-22.3. in Hannover Hbf,ansehen
+20200101587,2020,ICE,1587,Hamburg,München,Corona: Zug entfällt ab 23.3.; bis Fulda vereinigt mit ICE 1597 als ICE 1587,ansehen
+20200101594,2020,ICE,1594,Frankfurt(Main),Hamburg-Altona,Corona: Zug entfällt ab 23.3.; Hannover Hbf-Hamburg-Altona bis 20.3.,ansehen
+20200101595,2020,ICE,1595,Frankfurt(Main),Stuttgart,Corona: Zug fährt 28.3.-5.9. nur Sa/So,ansehen
+20200101596,2020,ICE,1596,Karlsruhe,Stralsund,Corona; Zug endet 29.3.-24.5. in Rostock Hbf; Zug beginnt 22.3.-26.4. in Hamburg Hbf,ansehen
+20200101597,2020,ICE,1597,Fulda,Frankfurt(Main),Corona: Zug entfällt ab 23.3.; Zug kommt als ICE 1587 aus Hamburg Hbf/Hannover Hbf,ansehen
+20200101607,2020,ICE,1607,Hamburg-Altona,München,Corona: Zug endet 23.3.-13.6. außer Fr in Leipzig Hbf,ansehen
+20200101630,2020,ICE,1630,Berlin-Gesundbrunnen,Frankfurt(Main),Corona: Zug entfällt 24.3.-8.9.,ansehen
+20200101631,2020,ICE,1631,Frankfurt(Main),Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-8.9.,ansehen
+20200101634,2020,ICE,1634,Berlin-Gesundbrunnen,Frankfurt(Main),Corona: Zug entfällt 24.3.-6.9.,ansehen
+20200101635,2020,ICE,1635,Frankfurt(Main),Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-8.9.,ansehen
+20200101636,2020,ICE,1636,Berlin-Gesundbrunnen,Frankfurt(Main),Corona: Zug entfällt 24.3.-8.9.,ansehen
+20200101645,2020,ICE,1645,Ostseebad Binz,Hamburg,Corona: Zug beginnt 22.3.-30.4. in Stralsund Hbf,ansehen
+20200101671,2020,ICE,1671,Stralsund,Karlsruhe,Corona: Zug beginnt 20.3.-29.5. in Rostock Hbf; Zug endet 21.3.-30.4. in Hamburg Hbf,ansehen
+20200101672,2020,ICE,1672,Karlsruhe,Ostseebad Binz,Corona: Zug endet 21.3.-28.5. (ab 4.5.: Mo-Fr) in Rostock Hbf,ansehen
+20200101673,2020,ICE,1673,Hamburg-Altona,Stuttgart,Corona: Zug entfällt im Zeitraum 23.3.-8.5.,ansehen
+20200101675,2020,ICE,1675,Ostseebad Binz,Karlsruhe,Corona: Zug beginnt 18.3.-24.5. in Stralsund Hbf; Zug beginnt 21.3.-30.4. in Hannover Hbf,ansehen
+20200101678,2020,ICE,1678,Hannover,Ostseebad Binz,Corona: Zug endet 4.4.-23.5. in Stralsund Hbf; Zug beginnt 21.3.-3.5. in Hamburg Hbf,ansehen
+20200101683,2020,ICE,1683,Fulda,Frankfurt(Main),Corona: Zug entfällt ab 23.3.; Zug kommt als ICE 1285 aus Hamburg-Altona/Hannover Hbf,ansehen
+20200101685,2020,ICE,1685,Hamburg-Altona,Frankfurt(Main),Corona: Zug entfällt ab 23.3.,ansehen
+20200101704,2020,ICE,1704,Jena Paradies,Leipzig,Corona: Zug entfällt 23.3.-13.6.; ab Leipzig Hbf als ICE 1604 weiter nach Hamburg-Altona/Kiel Hbf,ansehen
+20200101705,2020,ICE,1705,Leipzig,Jena Paradies,Corona: Zug entfällt 20.3.-13.6.; Zug kommt als ICE 1605 aus Kiel Hbf/Hamburg-Altona,ansehen
+20200101706,2020,ICE,1706,München,Berlin-Gesundbrunnen,Corona: Zug entfällt 23.3.-8.9.,ansehen
+20200101707,2020,ICE,1707,Berlin Hbf,München,Corona: Zug entfällt 23.3.-8.9.,ansehen
+20200101710,2020,ICE,1710,Berlin Hbf,Ostseebad Binz,Corona: Zug entfällt 20.3.-27.5..; Zug kommt als ICE 1600 / ICE 1708 aus München Hbf,ansehen
+20200101711,2020,ICE,1711,Ostseebad Binz,Berlin Hbf,Corona: Zug entfällt 20.3.-28.5. fährt als ICE 1601 / ICE 1709 weiter nach München Hbf,ansehen
+20200101714,2020,ICE,1714,Jena Paradies,Ostseebad Binz,Corona: Zug entfällt 21.3.-23.5.,ansehen
+20200101715,2020,ICE,1715,Ostseebad Binz,München,Corona: Zug entfällt 25.4.-23.5.,ansehen
+20200101721,2020,ICE,1721,Nürnberg,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-30.5.; Zug endet ab 10.10. in Berlin Hbf,ansehen
+20200101731,2020,ICE,1731,Eisenach,Berlin-Gesundbrunnen,Corona: Zug entfällt 24.3.-30.5.; Zug endet ab 5.10. in Berlin Hbf,ansehen
+20200101736,2020,ICE,1736,Berlin-Gesundbrunnen,Frankfurt(Main),Corona: Zug entfällt 24.3.-5.9.,ansehen
+20200101909,2020,IC,1909,Norddeich Mole,Köln,Corona: Zug entfällt 4.4.-21.5.,ansehen
+20200101910,2020,IC,1910,München,Dortmund,Corona: Zug entfällt ab dem 1.11.,ansehen
+20200201910,2020,IC,1910,Karlsruhe,Dortmund,Corona: Zug entfällt am 31.5.,ansehen
+20200101915,2020,IC,1915,Dortmund,Stuttgart,Corona: Zug entfällt 23.3.-9.4.,ansehen
+20200201915,2020,IC,1915,Dortmund,Karlsruhe,Corona: Zug entfällt 13.4.-13.6.,ansehen
+20200101916,2020,IC,1916,Stuttgart,Berlin Ostbahnhof,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200201916,2020,IC,1916,Karlsruhe,Berlin Ostbahnhof,Corona: Zug entfällt 13.4.-12.6. (fährt am 1.6.),ansehen
+20200101917,2020,IC,1917,Berlin Ostbahnhof,Tübingen,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200101932,2020,IC,1932,Stralsund,Oldenburg(Oldb),Corona: Zug entfällt ab 7.6.,ansehen
+20200101933,2020,IC,1933,Oldenburg(Oldb),Leipzig,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200101934,2020,IC,1934,Dresden,Emden,Corona: Zug entfällt 23.3.-1.6.,ansehen
+20200101949,2020,IC,1949,Hannover,Leipzig,Corona: Zug entfällt am 24.4.-12.6.,ansehen
+20200101950,2020,IC,1950,Berlin Hbf,Frankfurt(Main),Corona: Zug entfällt am 27.4.-8.6.,ansehen
+20200101953,2020,IC,1953,Berlin Südkreuz,Ostseebad Binz,Corona: Zug entfällt 20.3.-4.4.,ansehen
+20200101954,2020,IC,1954,Leipzig,Köln,Corona: Zug entfällt 23.3.-14.6. sowie ab 15.6. Fr,ansehen
+20200101956,2020,IC,1956,Leipzig,Karlsruhe,Corona: Zug entfällt 23.3.-14.6.,ansehen
+20200101957,2020,IC,1957,Frankfurt(Main),Leipzig,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101958,2020,IC,1958,Ostseebad Binz,Köln,Corona: Zug entfällt 4.4.-23.5.,ansehen
+20200101959,2020,IC,1959,Düsseldorf,Leipzig,Corona: Zug entfällt 23.3.-22.5.,ansehen
+20200101970,2020,IC,1970,Stuttgart,Berlin Ostbahnhof,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200101972,2020,IC,1972,Frankfurt(Main),Hamburg-Altona,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101978,2020,IC,1978,Berlin Südkreuz,Hamburg-Altona,Corona: Zug entfällt 14.4.-13.6.,ansehen
+20200101980,2020,IC,1980,München,Hamburg-Altona,Corona: Zug entfällt ab 29.3.,ansehen
+"20200101982,2020,IC,1982,Karlsruhe,Hannover,""Corona: Zug entfällt bis 30.10., Zug endet ab 1.11. in Frankfurt(M)Hbf"",ansehen"
+20200101983,2020,IC,1983,Hamburg-Altona,Wolfsburg,Corona: Zug entfällt ab dem 20.3.,ansehen
+20200101985,2020,IC,1985,Hamburg-Altona,Karlsruhe,Corona: Zug entfällt 23.3.-14.6.,ansehen
+20200101986,2020,IC,1986,Stuttgart,Hamburg-Altona,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200101987,2020,IC,1987,Flensburg,München,Corona: Zug entfällt ab dem 27.3.,ansehen
+20200101992,2020,IC,1992,Karlsruhe,Frankfurt(Main),Corona: Zug entfällt 14.4.-15.6.,ansehen
+20200101994,2020,IC,1994,Stuttgart,Frankfurt(Main),Corona: Zug entfällt 31.3.-3.4.,ansehen
+20210101994,2021,IC,1994,Stuttgart,Frankfurt(Main),Corona: Zug entfällt bis 16.6.,ansehen
+20200101995,2020,IC,1995,Frankfurt(Main),Stuttgart,Corona: Zug entfällt 30.3.-2.4.,ansehen
+20210101995,2021,IC,1995,Frankfurt(Main),Stuttgart,Corona: Zug entfällt bis 15.6.,ansehen
+20200101999,2020,IC,1999,Hannover,Stuttgart,Corona: Zug entfällt ab dem 23.3.; Zug kommt als IC 2256 aus Berlin Ostbahnhof,ansehen
+20200102001,2020,IC,2001,Norddeich Mole,Köln,Corona: Zug entfällt 30.3.-25.5.,ansehen
+20200102010,2020,IC,2010,Tübingen,Berlin Ostbahnhof,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102011,2020,IC,2011,Berlin Ostbahnhof,Tübingen,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102012,2020,IC,2012,Oberstdorf,Dortmund,Corona: Zug entfällt 21.3.-29.5.; Zug endet 14.6.-31.10. in Stuttgart Hbf,ansehen
+20200102013,2020,IC,2013,Dortmund,Oberstdorf,Corona: Zug entfällt 20.3.-28.5.; Zug beginnt 14.6.-31.10. in Stuttgart Hbf,ansehen
+20200102017,2020,IC,2017,Berlin Ostbahnhof,Frankfurt(Main),Corona: Zug entfällt 17.4.-10.6.,ansehen
+20200202018,2020,IC,2018,Frankfurt(Main),Norddeich Mole,Corona: Zug entfällt 18.4.-21.5.; Zug beginnt 30.5.-13.6. in Köln Hbf,ansehen
+20200102045,2020,IC,2045,Köln,Dresden,Corona: Zug endet 19.4.-24.5. So in Leipzig Hbf,ansehen
+20200102050,2020,IC,2050,Ostseebad Binz,Berlin Südkreuz,Corona: Zug entfällt 20.3.-29.5.,ansehen
+20200102060,2020,IC,2060,Leipzig,Karlsruhe,Corona: Zug entfällt 23.3.-28.5.; 29.5.-13.6. ab Nürnberg; Zug endet 14.6.-31.10. in Stuttgart Hbf,ansehen
+20200102063,2020,IC,2063,Offenburg,Leipzig,Corona: Zug entfällt 23.3.-28.5.; Zug endet 29.5.-13.6. in Nürnberg Hbf,ansehen
+20200102068,2020,IC,2068,München,Karlsruhe,Corona: Zug entfällt 26.4.-24.5. an So; Zug endet 14.4.-31.10. in Stuttgart Hbf,ansehen
+20200102070,2020,IC,2070,Berlin Südkreuz,Hamburg-Altona,Corona: Zug entfällt 16.3.-13.6.,ansehen
+20200102071,2020,IC,2071,Hamburg-Altona,Berlin Südkreuz,Corona: Zug entfällt 16.3.-13.6.,ansehen
+20200102072,2020,IC,2072,Dresden,Westerland(Sylt),Corona: Zug endet 19.3.-28.5. in Hamburg Hbf,ansehen
+20200102073,2020,IC,2073,Westerland(Sylt),Dresden,Corona: Zug beginnt 19.3.-28.5. in Hamburg Hbf,ansehen
+20200102076,2020,IC,2076,Dresden,Berlin-Gesundbrunnen,Corona: Zug entfällt 25.3.-10.6.,ansehen
+20200102082,2020,IC,2082,Berchtesgaden,Hamburg-Altona,Corona: Zug entfällt 21.3.-29.5.,ansehen
+20200102083,2020,IC,2083,Hamburg-Altona,Berchtesgaden,Corona: Zug entfällt 20.3.-28.5.,ansehen
+20200102084,2020,IC,2084,Oberstdorf,Augsburg,Corona: Zug entfällt 21.3.-29.5.; Zug fährt als IC 2082 weiter nach Hamburg-Altona,ansehen
+20200102085,2020,IC,2085,Augsburg,Oberstdorf,Corona: Zug entfällt 20.3.-28.5.; Zug kommt als IC 2083 aus Hamburg-Altona,ansehen
+20200102159,2020,IC,2159,Düsseldorf,Leipzig,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102170,2020,IC,2170,Berlin Südkreuz,Rostock,Corona: Zug entfällt am 14.6.,ansehen
+20200102182,2020,IC,2182,Hamburg,Stralsund,Corona: Zug entfällt 3.-24.5.,ansehen
+"20200102183,2020,IC,2183,Frankfurt(Main),Karlsruhe,""Corona: Zug entfällt 6.4.-9.6. (fährt am 25.5., 2., 8.6.)"",ansehen"
+20200102195,2020,IC,2195,Hamburg-Altona,Köln,Corona: Zug entfällt 23.3.-9.4.,ansehen
+20200102196,2020,IC,2196,Köln,Hamburg-Altona,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102199,2020,IC,2199,Hamburg-Altona,Köln,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102201,2020,IC,2201,Norddeich Mole,Köln,Corona: Zug entfällt am 19.5.,ansehen
+20200102211,2020,IC,2211,Ostseebad Binz,Karlsruhe,Corona: Zug beginnt 13.4.-28.5. in Stralsund Hbf,ansehen
+20200102212,2020,IC,2212,Koblenz,Ostseebad Binz,Corona: Zug endet 18.3.-28.5. in Stralsund Hbf,ansehen
+20200102213,2020,IC,2213,Ostseebad Binz,Stuttgart,Corona: Zug beginnt 18.3.-28.5. in Stralsund Hbf,ansehen
+20200102216,2020,IC,2216,Offenburg,Greifswald,Corona: Zug endet 19.3.-13.6. in Stralsund Hbf,ansehen
+20200102217,2020,IC,2217,Züssow,Stuttgart,Corona: Zug beginnt 18.3.-10.4. in Stralsund Hbf,ansehen
+20200202217,2020,IC,2217,Züssow,Karlsruhe,Corona: Zug beginnt 11.4.-13.6. in Stralsund Hbf,ansehen
+20200102240,2020,IC,2240,Berlin Ostbahnhof,Münster,Corona: Zug entfällt 5.4.-24.5.,ansehen
+20200102241,2020,IC,2241,Münster,Berlin Ostbahnhof,Corona: Zug entfällt 6.4.-23.5.; Zug beginnt am 25.5. in Hannover Hbf,ansehen
+20200102242,2020,IC,2242,Berlin Ostbahnhof,Münster,Corona: Zug entfällt 5.4.-23.5.,ansehen
+20200102250,2020,IC,2250,Stralsund,Köln,Corona: Zug entfällt ab dem 19.3.,ansehen
+20200102251,2020,IC,2251,Köln,Berlin Ostbahnhof,Corona: Zug entfällt 23.3.-8.9. (ab 14.9. als IC 2231),ansehen
+20200102252,2020,IC,2252,Berlin Hbf,Köln,Corona: Zug entfällt ab dem 19.6.,ansehen
+20200102253,2020,IC,2253,Köln,Ostseebad Binz,Corona: Zug entfällt 19.3.-23.5.,ansehen
+"20200102254,2020,IC,2254,Berlin Ostbahnhof,Köln,""Corona: Zug entfällt 26.3.-14.6. (fährt am 3.5.), Zug fährt 16.6.-1.11. Mo+Do, Zug entfällt ab 2.11."",ansehen"
+"20200102255,2020,IC,2255,Aachen,Berlin Ostbahnhof,""Corona: Zug fährt 15.6.-8.9 nur Fr, ab 9.9. als IC 2235"",ansehen"
+"20200102256,2020,IC,2256,Berlin Ostbahnhof,Köln,""Corona: Zug entfällt 19.-30.4.; 21.6.-8.9. So, 9.9.-1.11. als IC 2236, ab 2.11. vsl. Mo, Mi, Fr"",ansehen"
+20200102257,2020,IC,2257,Köln,Berlin Ostbahnhof,Corona: Zug entfällt Di-Fr,ansehen
+"20200102258,2020,IC,2258,Berlin Südkreuz,Aachen,""Corona: Zug entfällt Di 21.4.-2.6., fährt ab 14.6. Mo, ab 9.9. als IC 2228"",ansehen"
+20200102290,2020,IC,2290,Stuttgart,Frankfurt(Main),Corona: Zug entfällt ab dem 1.11.,ansehen
+"20200102295,2020,IC,2295,Frankfurt(Main),Stuttgart,""Corona: Zug entfällt am 4.5., 25.5."",ansehen"
+20200102310,2020,IC,2310,Frankfurt(Main),Westerland(Sylt),Corona: Zug endet 19.3.-28.5. in Hamburg Hbf,ansehen
+20200102311,2020,IC,2311,Westerland(Sylt),Stuttgart,Corona: Zug beginnt 19.3.-29.5. in Hamburg Hbf,ansehen
+20200102314,2020,IC,2314,Köln,Westerland(Sylt),Corona: Zug endet 3.4.-28.5. in Hamburg Hbf,ansehen
+20200102315,2020,IC,2315,Westerland(Sylt),Frankfurt(Main),Corona: Zug beginnt 3.4.-28.5. in Hamburg Hbf,ansehen
+20200102318,2020,IC,2318,Stuttgart,Münster,Corona: Zug entfällt 20.3.-10.4. zwischen Dortmund Hbf und Münster(Westf)Hbf,ansehen
+"20200202318,2020,IC,2318,Karlsruhe,Münster,""Corona: Zug entfällt bis 13.6. zwischen Dortmund und Münster, an Einzeltagen auf ges. Laufweg"",ansehen"
+20200102319,2020,IC,2319,Münster,Stuttgart,Corona: Zug entfällt 20.3.-10.4. zwischen Münster Hbf und Dortmund Hbf; Zug entfällt ab 2.11. Sa,ansehen
+"20200202319,2020,IC,2319,Münster,Karlsruhe,""Corona: Zug entfällt 11.4.-13.6. zwischen Münster und Dortmund, Zug fährt ab 15.6. Mo-Fr"",ansehen"
+20200102343,2020,IC,2343,Münster,Berlin Ostbahnhof,Corona: Zug entfällt 6.4.-24.5.,ansehen
+20200102350,2020,IC,2350,Berlin Ostbahnhof,Köln,Corona: Zug entfällt ab dem 24.4.,ansehen
+20200102351,2020,IC,2351,Köln,Berlin Ostbahnhof,Corona: Zug entfällt ab 23.3.,ansehen
+20200102353,2020,IC,2353,Köln,Ostseebad Binz,Corona: Zug entfällt 19.3.-20.5. und ab 2.11.,ansehen
+20200102355,2020,IC,2355,Köln,Stralsund,Corona: Zug entfällt ab dem 14.6.,ansehen
+20200102372,2020,IC,2372,Karlsruhe,Hannover,Corona: Zug entfällt 23.3.-13.6. sowie Fr 15.6.-2.10.,ansehen
+20200102374,2020,IC,2374,Karlsruhe,Westerland(Sylt),Corona: Zug endet 19.3.-28.5. in Hamburg Hbf; Zug endet Mo-Mi bis 18.3. in Hamburg Hbf,ansehen
+20200102375,2020,IC,2375,Westerland(Sylt),Karlsruhe,Corona: Zug beginnt 20.3.-29.5. in Hamburg Hbf; Zug beginnt Di-Do bis 19.3. in Hamburg Hbf,ansehen
+20200102377,2020,IC,2377,Hamburg-Altona,Hannover,Corona: Zug entfällt am 8.5.-12.6.,ansehen
+20200102378,2020,IC,2378,Hannover,Hamburg-Altona,Corona: Zug entfällt am 10.5.-14.6.,ansehen
+20200102379,2020,IC,2379,Stralsund,Frankfurt(Main),Corona: Zug entfällt 19.4.-24.5.; Zug beginnt 22.3.-12.4. in Hannover Hbf,ansehen
+20200102402,2020,IC,2402,Köln,Hamburg-Altona,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102403,2020,IC,2403,Hamburg-Altona,Aachen,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102406,2020,IC,2406,Köln,Flensburg,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102407,2020,IC,2407,Flensburg,Köln,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102408,2020,IC,2408,Köln,Hamburg-Altona,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102411,2020,IC,2411,Dortmund,Stuttgart,Corona: Zug fährt ab 14.6. nur Do und So,ansehen
+20200102414,2020,IC,2414,Stuttgart,Dortmund,Corona: Zug fährt ab dem 14.6. nur Do und So,ansehen
+20200102416,2020,IC,2416,Köln,Hamburg-Altona,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102417,2020,IC,2417,Fehmarn-Burg,Köln,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102418,2020,IC,2418,Köln,Fehmarn-Burg,Corona: Zug entfällt 23.3.-13.6.,ansehen
+20200102419,2020,IC,2419,Köln,Stuttgart,Corona: Zug entfällt 27.4.-8.6.,ansehen
+20200102421,2020,IC,2421,Hamburg-Altona,Köln,Corona: Zug entfällt 30.3.-13.6.,ansehen
+20200102424,2020,IC,2424,Ostseebad Binz,Berlin Südkreuz,Corona: Zug beginnt 2.5.-24.5. in Stralsund Hbf,ansehen
+20200102431,2020,IC,2431,Emden Außenhafen,Cottbus,Corona: Zug entfällt 20.3.-28.5.,ansehen
+20200102432,2020,IC,2432,Cottbus,Norddeich Mole,Corona: Zug entfällt 21.3.-28.5.,ansehen
+20200102445,2020,IC,2445,Köln,Dresden,Corona: Zug entfällt am 24.5.,ansehen
+"20200102451,2020,IC,2451,Köln,Berlin Ostbahnhof,""Corona: Zug entfällt 23.3.-12.6., fährt 15.6.-8.9. So; ab 9.9. als IC 2237"",ansehen"
+20200102452,2020,IC,2452,Berlin Hbf,Köln,Corona: Zug entfällt ab dem 14.6.,ansehen
+20200102453,2020,IC,2453,Köln,Berlin Ostbahnhof,Corona: Zug entfällt ab dem 23.3.,ansehen
+20200102455,2020,IC,2455,Köln,Dresden,Corona: Zug entfällt 23.3.-9.6.,ansehen
+20200102457,2020,IC,2457,Berlin Südkreuz,Ostseebad Binz,Corona: Zug entfällt 20.3.-28.5.,ansehen
+20200102459,2020,IC,2459,Berlin Südkreuz,Ostseebad Binz,Corona: Zug endet am 25.4.-21.5. in Stralsund Hbf,ansehen
+20200109550,2020,ICE,9550,Frankfurt(Main),Paris(Est),Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109550,2021,ICE,9550,Frankfurt(Main),Paris(Est),Corona: eingeschränkte Verkehrstage bis 4.7.,ansehen
+20200109551,2020,TGV,9551,Paris Est,Frankfurt(Main),Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109552,2020,TGV,9552,Frankfurt(Main),Paris Est,Corona: Zug entfällt 20.3.-7.6.,ansehen
+20210109552,2021,TGV,9552,Frankfurt(Main),Paris Est,Corona: eingeschränkte Verkehrstage bis 27.6.,ansehen
+"20200109553,2020,ICE,9553,Paris Est,Frankfurt(Main),""Corona: Zug entfällt 20.3.-23.5., 24., 31.5., 1., 7.6."",ansehen"
+20210109553,2021,ICE,9553,Paris Est,Frankfurt(Main),Corona: eingeschränkte Verkehrstage bis 4.7.,ansehen
+"20200109554,2020,ICE,9554,Frankfurt(Main),Paris Est,""Corona: Zug entfällt 20.3.-16.5., fährt bereits ab 17.5. nur So"",ansehen"
+20210109554,2021,ICE,9554,Frankfurt(Main),Paris Est,Corona: eingeschränkte Verkehrstage bis 9.7.,ansehen
+"20200109555,2020,ICE,9555,Paris Est,Frankfurt(Main),""Corona: Zug entfällt 20.3.-16.5., fährt 17.5.-23.6. nur So"",ansehen"
+20200109556,2020,ICE,9556,Frankfurt(Main),Paris Est,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109557,2020,ICE,9557,Paris Est,Frankfurt(Main),Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109557,2021,ICE,9557,Paris Est,Frankfurt(Main),Corona: eingeschränkte Verkehrstage bis 1.7.,ansehen
+20200109558,2020,ICE,9558,Frankfurt(Main),Paris Est,Corona: Zug entfällt 20.3.-10.5. und am 1.6.,ansehen
+20200109559,2020,TGV,9559,Paris Est,Frankfurt(Main),Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109559,2021,TGV,9559,Paris Est,Frankfurt(Main),Corona: eingeschränkte Verkehrstage bis 2.7.,ansehen
+20200109560,2020,TGV,9560,Frankfurt(Main),Paris Est,Corona: Zug entfällt 20.3.-10.5.; Zug beginnt 11.5.-23.6. in Karlsruhe Hbf,ansehen
+20200109561,2020,TGV,9561,Paris Est,Frankfurt(Main),Corona: Zug entfällt 20.3.-7.6.,ansehen
+20200109563,2020,ICE,9563,Paris Est,Frankfurt(Main),Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109563,2021,ICE,9563,Paris Est,Frankfurt(Main),Corona: eingeschränkte Verkehrstage bis 27.6.,ansehen
+20200109566,2020,ICE,9566,Frankfurt(Main),Paris Est,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109568,2020,ICE,9568,Frankfurt(Main),Paris Est,Corona: Zug entfällt täglich 20.3.-7.6. sowie Mo-Fr 8.-23.6.,ansehen
+20200109570,2020,TGV,9570,Stuttgart,Paris Est,Corona: Zug entfällt 20.3.-23.6.; Zug beginnt 4.7.-26.9. in Karlsruhe Hbf,ansehen
+20200109571,2020,ICE,9571,Paris Est,Stuttgart,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109571,2021,ICE,9571,Paris Est,Stuttgart,Corona: Zug entfällt bis 3.7.,ansehen
+20200109572,2020,ICE,9572,Stuttgart,Paris Est,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109573,2020,ICE,9573,Paris Est,Stuttgart,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109574,2020,ICE,9574,Stuttgart,Paris Est,Corona: Zug entfällt 20.3.-7.6.,ansehen
+20200109575,2020,TGV,9575,Paris Est,Stuttgart,Corona: Zug entfällt 20.3.-10.5. Zug endet 11.5.-26.9. in Karlsruhe Hbf,ansehen
+20200109576,2020,TGV,9576,München,Paris Est,Corona: Zug entfällt 20.3.-23.6.; Zug beginnt ab 4.7. in Stuttgart Hbf,ansehen
+20210109576,2021,TGV,9576,München,Paris Est,Corona: Zug beginnt bis 4.7. in Stuttgart Hbf,ansehen
+20200109577,2020,TGV,9577,Paris Est,München,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109577,2021,TGV,9577,Paris Est,München,Corona: Zug entfällt bis 4.7.,ansehen
+20200109578,2020,TGV,9578,Stuttgart,Paris Est,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109578,2021,TGV,9578,Stuttgart,Paris Est,Corona: Zug entfällt bis 5.7.,ansehen
+20200109579,2020,TGV,9579,Paris Est,München,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109579,2021,TGV,9579,Paris Est,München,Corona: Zug endet bis 2.7. täglich in Stuttgart Hbf,ansehen
+20200109580,2020,TGV,9580,Frankfurt(Main),Marseille-St-Charles,Corona: Zug entfällt 18.3.-23.6.,ansehen
+20200109583,2020,TGV,9583,Marseille-St-Charles,Frankfurt(Main),Corona: Zug entfällt 18.3.-23.6.,ansehen
+20200109586,2020,ICE,9586,Frankfurt(Main),Paris Est,Corona: Zug entfällt 20.3.-10.5.,ansehen
+20200109592,2020,TGV,9592,Stuttgart,Paris Est,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109593,2020,TGV,9593,Paris Est,Stuttgart,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20200109596,2020,TGV,9596,München,Paris Est,Corona: Zug entfällt 20.3.-23.6.,ansehen
+20210109596,2021,TGV,9596,München,Paris Est,Corona: Zug beginnt bis 27.6. in Stuttgart Hbf,ansehen
