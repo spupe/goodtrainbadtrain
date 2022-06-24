@@ -78,7 +78,7 @@ def ui_transformer(start_city, end_city, user_date, ice_name):
 
 def weather_forecast(start_city, end_city, user_date):
     # get weather forecast
-    key = 'xxxxx' #Add here your own key from https://www.visualcrossing.com
+    key = '7DYDYYY5GVYHQA52HXFQV5A5Y' #Add here your own key from https://www.visualcrossing.com
 
     start_date = pd.Timestamp(user_date).round('H')
     start_date_00 = pd.Timestamp(start_date.year, start_date.month, start_date.day)
@@ -125,12 +125,6 @@ def weather_forecast(start_city, end_city, user_date):
         4: [3, 5, 7, 10, 13, 15, 16, 17, 22, 25, 34]
     }
 
-    ### THIS CHANGED
-    db_path = 'api/data/weather_forecast.pickle'
-    with open(db_path, 'rb') as handle:
-        weather_response = pickle.load(handle)
-    ### UNTIL HERE
-
     #weather_response = {}
     weather = {}
     weather_dict = {}
@@ -139,14 +133,13 @@ def weather_forecast(start_city, end_city, user_date):
         lat = stations_lat_lon[stations_lat_lon['NAME'] == s]['Y'].mean()
         lon = stations_lat_lon[stations_lat_lon['NAME'] == s]['X'].mean()
 
-        #url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{str(lat)},{str(lon)}/{start_date_str}/{end_date_str}"
-        #params = {'key': key,
-        #        'unitGroup': 'metric'}
-        #response = requests.get(url, params=params).json()
+        url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{str(lat)},{str(lon)}/{start_date_str}/{end_date_str}"
+        params = {'key': key,
+                'unitGroup': 'metric'}
+        response = requests.get(url, params=params).json()
 
         #weather_response[s] = response
-
-        response = weather_response[s] ### THIS CHANGED
+        #response = weather_response[s] ### THIS CHANGED
 
         number_of_days = (end_date - start_date).days + 1
         variables = ['datetime', 'temp', 'precip', 'snow', 'windspeed', 'windgust', 'conditions']
