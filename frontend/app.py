@@ -317,7 +317,7 @@ with col5:
     st.image('frontend/blackpadding.png',width=45)
     center_button = st.button('Go')
 with col6:
-    st.image('frontend/blackpadding.png',width=30)
+    st.image('frontend/blackpadding.png',width=10)
 
 if pickup == 'München':
     origin = 'München Hbf'
