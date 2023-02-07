@@ -314,7 +314,7 @@ with col4:
         "Time",
         value=(time(8, 00)))
 with col5:
-    st.image('frontend/blackpadding.png',width=30)
+    st.image('frontend/blackpadding.png',width=35)
     center_button = st.button('Go')
 with col6:
     st.image('frontend/blackpadding.png',width=30)
@@ -346,7 +346,6 @@ querydate = pickupdate + ' ' + pickuptime
 datefordb = datetime.strptime(querydate, '%Y-%m-%d %H:%M:%S')
 
 if center_button:
-
 
     start = timer()
     with st.spinner('Gathering journey information from Deutsche Bahn'):
@@ -516,7 +515,6 @@ if center_button:
     st.session_state.checkbox1 = True
     st.experimental_rerun() 
 
-
 if st.session_state.active==True:
     journeydf = st.session_state.maindf
     leglist1 = st.session_state.leglist1
@@ -556,8 +554,7 @@ if st.session_state.active==True:
         if st.session_state.goodtrain3== 1:
             st.image('frontend/gtbt_good_green2.png',width=13,)
         else:
-            st.image('frontend/gtbt_bad_red2.png',width=13)
-        
+            st.image('frontend/gtbt_bad_red2.png',width=13)        
 
     if radiochoice == string1:
         st.session_state.checkbox1=True
