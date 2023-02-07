@@ -294,7 +294,7 @@ tomorrowdate = datetime.now() + timedelta(days=1)
 maxdate = datetime.now() + timedelta(days=15)
 datetodisplay = tomorrowdate.date()
 
-col0, col1,col3,col4,col5,col6 = st.columns([4,4,3,3,1,1])
+col0, col1,col3,col4,col5 = st.columns([4,4,3,3,2])
 origin = 'Köln Hbf'
 start_city = 'Koln'
 destination = 'München Hbf'
@@ -316,8 +316,8 @@ with col4:
 with col5:
     st.image('frontend/blackpadding.png',width=45)
     center_button = st.button('Go')
-with col6:
-    st.image('frontend/blackpadding.png',width=10)
+#with col6:
+#    st.image('frontend/blackpadding.png',width=10)
 
 if pickup == 'München':
     origin = 'München Hbf'
