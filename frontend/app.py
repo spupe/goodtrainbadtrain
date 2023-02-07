@@ -314,7 +314,7 @@ with col4:
         "Time",
         value=(time(8, 00)))
 with col5:
-    st.image('frontend/blackpadding.png',width=35)
+    st.image('frontend/blackpadding.png',width=45)
     center_button = st.button('Go')
 with col6:
     st.image('frontend/blackpadding.png',width=30)
