@@ -279,7 +279,7 @@ if checkbox3:
 else:
     notcheckbox3 = True
 
-st.set_page_config(page_title='Good Train Bad Train', page_icon='gtbt_good.png', layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title='Good Train Bad Train', page_icon='frontend/gtbt_good.png', layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.image('frontend/gtbtlogo_black.png')
 client = HafasClient(VSNProfile())
 
@@ -314,10 +314,10 @@ with col4:
         "Time",
         value=(time(8, 00)))
 with col5:
-    st.image('blackpadding.png',width=30)
+    st.image('frontend/blackpadding.png',width=30)
     center_button = st.button('Go')
 with col6:
-    st.image('blackpadding.png',width=30)
+    st.image('frontend/blackpadding.png',width=30)
 
 if pickup == 'München':
     origin = 'München Hbf'
@@ -539,24 +539,24 @@ if st.session_state.active==True:
     with colcheck11:
         radiochoice=st.radio(' ',(string1,string2,string3)) 
     with colcheck12:
-        st.image('blackpadding.png',width=25)
+        st.image('frontend/blackpadding.png',width=25)
         #st.markdown(f'Confidence: {round(st.session_state.proba1,2)}%')
         #st.markdown(f'Confidence: {round(st.session_state.proba2,2)}%')
         #st.markdown(f'Confidence: {round(st.session_state.proba3,2)}%')
     with colcheck13:
-        st.image('blackpadding.png',width=40)
+        st.image('frontend/blackpadding.png',width=40)
         if st.session_state.goodtrain1 == 1:
-            st.image('gtbt_good_green2.png',width=13,)
+            st.image('frontend/gtbt_good_green2.png',width=13,)
         else:
-            st.image('gtbt_bad_red2.png',width=13)
+            st.image('frontend/gtbt_bad_red2.png',width=13)
         if st.session_state.goodtrain2 == 1:
-            st.image('gtbt_good_green2.png',width=13,)
+            st.image('frontend/gtbt_good_green2.png',width=13,)
         else:
-            st.image('gtbt_bad_red2.png',width=13)
+            st.image('frontend/gtbt_bad_red2.png',width=13)
         if st.session_state.goodtrain3== 1:
-            st.image('gtbt_good_green2.png',width=13,)
+            st.image('frontend/gtbt_good_green2.png',width=13,)
         else:
-            st.image('gtbt_bad_red2.png',width=13)
+            st.image('frontend/gtbt_bad_red2.png',width=13)
         
 
     if radiochoice == string1:
@@ -574,7 +574,7 @@ if st.session_state.active==True:
 
     iconcolpad0,iconcol0,iconcol1, iconcol2, iconcol3 = st.columns([1,3,3,3,3])
     with iconcolpad0:
-        st.image('blackpadding.png',width=30)
+        st.image('frontend/blackpadding.png',width=30)
     with iconcol0:
         if radiochoice == string1:
             goodtrain =  st.session_state.goodtrain1
@@ -584,10 +584,10 @@ if st.session_state.active==True:
             goodtrain = st.session_state.goodtrain3
         if goodtrain == 1:
             st.markdown('Our prediction')
-            st.image('gtbt_good_green2.png',width=35)
+            st.image('frontend/gtbt_good_green2.png',width=35)
         else:
             st.markdown('Our prediction')
-            st.image('gtbt_bad_red2.png',width=35)
+            st.image('frontend/gtbt_bad_red2.png',width=35)
     with iconcol1:
         if radiochoice == string1:
             proba =  round(st.session_state.proba1*100)
