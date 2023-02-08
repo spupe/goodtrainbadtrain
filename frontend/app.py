@@ -206,7 +206,7 @@ def callapi(pickup,dropoff,querydate='2022-06-10 15:15:00',train='ICE 109'):
     #params={'start_city': pickup, 'end_city': dropoff, 'user_date': querydate, 'ice': train}).json()
     #response = requests.get('https://finalappgbm-4muwooak2q-ew.a.run.app/predict',   
     #response = requests.get('https://finalappgbmfri-4muwooak2q-ew.a.run.app/predict', 
-    response = requests.get('https://finalapp22june-4muwooak2q-ew.a.run.app',
+    response = requests.get('https://finalapp22june-4muwooak2q-ew.a.run.app/predict',
     params={'start_city': pickup, 'end_city': dropoff, 'user_date': querydate, 'ice': train}).json()
     print(response)
     start_city = response["start_city"]
@@ -217,7 +217,6 @@ def callapi(pickup,dropoff,querydate='2022-06-10 15:15:00',train='ICE 109'):
     weather = response["expected_weather_conditions"]
     mean_delay = response["mean_delay"]
     print([start_city,end_city,train,prediction,probability,weather,mean_delay])
-
     return [start_city,end_city,train,prediction,probability,weather,mean_delay]
 
 ### Main
