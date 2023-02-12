@@ -156,7 +156,7 @@ def calldb_preprocess(origin,destination,date):
     destination=destination1,
     date=date,
     max_changes=2,
-    min_change_time=10,
+    min_change_time=15,
     max_journeys=-1,
         products={
         'long_distance_express': True,
