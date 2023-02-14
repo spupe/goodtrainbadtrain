@@ -151,14 +151,15 @@ def create_map(leglist1,leglist2,leglist3,checkbox1,checkbox2,checkbox3):
 def calldb_preprocess(origin,destination,date):
     origin1 = client.locations(origin)[0]
     destination1 = client.locations(destination)[0]
+    print("debug_preprocess",origin1,destination1,date)
     journeys = client.journeys(
     origin=origin1,
     destination=destination1,
     date=date,
     max_changes=2,
-    min_change_time=10,
+    min_change_time=15,
     max_journeys=-1,
-        products={
+    products={
         'long_distance_express': True,
         'regional_express': False,
         'regional': False,
@@ -169,6 +170,8 @@ def calldb_preprocess(origin,destination,date):
         'tram': False,
         'taxi': False
     })
+
+
 
     journeydf = create_journeydf(journeys)
 
@@ -188,9 +191,10 @@ def calldb_preprocess(origin,destination,date):
                 'Berlin Hbf (tief)': [52.5251, 13.4694] ,'Berlin Hbf': [52.5251, 13.3694], 'Berlin Spandau': [52.5251, 13.3694], 
                 'Hamburg Hbf': [53.5530, 10.0066],  'Hamm(Westf)':  [851.6784, 7.8089],
                 'Düsseldorf Hbf': [51.2198, 6.7945], 'Stuttgart Hbf':[48.7832, 9.1823], 
-                'Essen Hbf': [51.4504, 7.0129] , 'Hagen(Westf) Bahnhof’': [51.3626, 7.4617],
+                'Essen Hbf': [51.4504, 7.0129] , 'Hagen(Westf) Bahnhof': [51.3626, 7.4617],
                 'Hagen Hbf':  [51.3626, 7.4617], 'Hannover Hbf': [52.3765, 9.7410],
-                'Erfurt Hbf': [50.9725, 11.0380],'Göttingen': [51.5366, 9.9268]}
+                'Erfurt Hbf': [50.9725, 11.0380],'Göttingen': [51.5366, 9.9268],
+                'Solingen Hbf': [51.1652,7.0671]}
     leglist1[:]=[my_dict.get(e,'') for e in leglist1]
     leglist2[:]=[my_dict.get(e,'') for e in leglist2]
     leglist3[:]=[my_dict.get(e,'') for e in leglist3]
@@ -201,27 +205,29 @@ def calldb_preprocess(origin,destination,date):
     return journeydf,leglist1,leglist2,leglist3
 
 
-def callapi(pickup,dropoff,querydate='2022-06-10 15:15:00',train='ICE 109'):
-    #response = requests.get('https://finalappfix-4muwooak2q-ew.a.run.app/predict',
-    #params={'start_city': pickup, 'end_city': dropoff, 'user_date': querydate, 'ice': train}).json()
-    #response = requests.get('https://finalappgbm-4muwooak2q-ew.a.run.app/predict',   
-    #response = requests.get('https://finalappgbmfri-4muwooak2q-ew.a.run.app/predict', 
-    response = requests.get('https://finalapp22june-4muwooak2q-ew.a.run.app',
-    params={'start_city': pickup, 'end_city': dropoff, 'user_date': querydate, 'ice': train}).json()
-    print(response)
-    start_city = response["start_city"]
-    end_city = response["end_city"]
-    train = response["train"]
-    prediction = response["prediction"]
-    probability = response["probability"]
-    weather = response["expected_weather_conditions"]
-    mean_delay = response["mean_delay"]
-    print([start_city,end_city,train,prediction,probability,weather,mean_delay])
+def callapi(pickup,dropoff,querydate='2023-10-02 15:15:00',train='ICE 109'):
+    print("debug2",pickup,dropoff,querydate,train)
+    try:
+        response = requests.get('https://finalapp22june-4muwooak2q-ew.a.run.app/predict',
+        params={'start_city': pickup, 'end_city': dropoff, 'user_date': querydate, 'ice': train})
+        print(response)
+        response = response.json()
+        start_city = response["start_city"]
+        end_city = response["end_city"]
+        train = response["train"]
+        prediction = response["prediction"]
+        probability = response["probability"]
+        weather = response["expected_weather_conditions"]
+        mean_delay = response["mean_delay"]
+        print([start_city,end_city,train,prediction,probability,weather,mean_delay])
+        return [start_city,end_city,train,prediction,probability,weather,mean_delay]
+    except:
+        st.warning('API call failed. No prediction able to be produced at this time. Please change parameters and try again.')
+        print(response)
 
-    return [start_city,end_city,train,prediction,probability,weather,mean_delay]
 
 ### Main
-print('MAIN')
+#print('MAIN')
 if 'active' not in st.session_state:
     st.session_state['active'] = False
 if 'maindf' not in st.session_state:
@@ -264,20 +270,8 @@ if 'leglist3' not in st.session_state:
 	st.session_state['leglist3'] = []
 
 checkbox1 = st.session_state.checkbox1
-if checkbox1: # simpler solutions have failed
-    notcheckbox1 =  False
-else:
-    notcheckbox1 = True
 checkbox2 = st.session_state.checkbox2
-if checkbox2:
-    notcheckbox2 =  False
-else:
-    notcheckbox2 = True
 checkbox3 = st.session_state.checkbox3
-if checkbox3: 
-    notcheckbox3 =  False
-else:
-    notcheckbox3 = True
 
 st.set_page_config(page_title='Good Train Bad Train', page_icon='frontend/gtbt_good.png', layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.image('frontend/gtbtlogo_black.png')
@@ -294,7 +288,7 @@ tomorrowdate = datetime.now() + timedelta(days=1)
 maxdate = datetime.now() + timedelta(days=15)
 datetodisplay = tomorrowdate.date()
 
-col0, col1,col3,col4,col5,col6 = st.columns([4,4,3,3,1,1])
+col0, col1,col3,col4,col5 = st.columns([4,4,3,3,2])
 origin = 'Köln Hbf'
 start_city = 'Koln'
 destination = 'München Hbf'
@@ -314,10 +308,10 @@ with col4:
         "Time",
         value=(time(8, 00)))
 with col5:
-    st.image('frontend/blackpadding.png',width=35)
+    st.image('frontend/blackpadding.png',width=45)
     center_button = st.button('Go')
-with col6:
-    st.image('frontend/blackpadding.png',width=30)
+#with col6:
+#    st.image('frontend/blackpadding.png',width=10)
 
 if pickup == 'München':
     origin = 'München Hbf'
@@ -332,10 +326,10 @@ if dropoff == 'Köln':
     destination = 'Köln Hbf'
     end_city = 'Koln'
 if pickup == 'Berlin':
-    origin = 'Berlin Hbf'
+    origin = 'Berlin Hauptbahnhof'
     start_city = 'Berlin'
 if dropoff == 'Berlin':
-    destination = 'Berlin Hbf'
+    destination = 'Berlin Hauptbahnhof'
     end_city = 'Berlin'
 
 pickuptime = pickuptime.strftime("%H:%M")
@@ -345,11 +339,14 @@ pickupdate = pickupdate.replace("/","-")
 querydate = pickupdate + ' ' + pickuptime
 datefordb = datetime.strptime(querydate, '%Y-%m-%d %H:%M:%S')
 
-if center_button:
 
+if center_button:
     start = timer()
     with st.spinner('Gathering journey information from Deutsche Bahn'):
-        journeydf,leglist1,leglist2,leglist3 = calldb_preprocess(origin,destination,datefordb)
+        print("debug1",origin,destination,datefordb)
+        
+    journeydf,leglist1,leglist2,leglist3 = calldb_preprocess(origin,destination,datefordb)
+    print("debugreply",journeydf,leglist1,leglist2,leglist3)
     if st.session_state.active == False:
        st.success('DB data collected.')
     end = timer()
@@ -435,11 +432,12 @@ if center_button:
                 'Düsseldorf Hbf': 'Dusseldorf', 'Stuttgart Hbf': 'Stuttgart', 
                 'Essen Hbf': 'Essen', 'Hagen(Westf) Bahnhof': 'Hagen',
                 'Hagen Hbf':  'Hagen', 'Hannover Hbf': 'Hanover',
-                'Erfurt Hbf': 'Erfurt','Göttingen': 'Gottingen'}
+                'Erfurt Hbf': 'Erfurt','Göttingen': 'Gottingen',
+                'Solingen Hbf': 'Solingen'}
     
     start_city1 = my_dict_cities[start_city1]
     start_city2 = my_dict_cities[start_city2]
-    start_city2 = my_dict_cities[start_city2]
+    start_city3 = my_dict_cities[start_city3]
     end_city1 = my_dict_cities[end_city1]
     end_city2 = my_dict_cities[end_city2]
     end_city3 = my_dict_cities[end_city3]
@@ -447,75 +445,75 @@ if center_button:
     start_city = start_city1 + ',' + start_city2 + ','  + start_city3
     end_city = end_city1 + ',' + end_city2 + ','  + end_city3
     querydate = querydate1 + ',' + querydate2 + ','  + querydate3
-    train = train1 + ',' + train2 + ','  + train3
-    print(start_city)
-    print(end_city)
-    print(querydate)
-    print(train)
+    train = str(train1) + ',' + str(train2) + ','  + str(train3)
     with st.spinner('Calling our server, this could take a while'):
         try:
             apireply = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            if st.session_state.active == False:
+                st.success('Server reply gathered.')
+            end = timer()
+            print(end - start) 
+            # start = timer()
+            # with st.spinner('Now gathering info about the second journey'):
+            #     train = journeydf.Leg1_Train[1]
+            #     try:
+            #         apireply2 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            #     except:
+            #         train='ICE 109'
+            #         apireply2 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            #         st.session_state.goodtrain2 = 0
+            # if st.session_state.active == False:
+            #     st.success('Second journey completed.')
+            # end = timer()
+            # print(end - start) 
+            # start = timer()
+            # with st.spinner('Almost there now, grabbing information for our third journey'):
+            #     train=journeydf.Leg1_Train[2]
+            #     try:
+            #         apireply3 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            #     except:
+            #         train='ICE 109'
+            #         apireply3 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            #         st.session_state.goodtrain3 = 0
+            # if st.session_state.active == False:
+            #     st.success('Success! All done')
+            # end = timer()
+            # print(end - start) 
+
+            print(journeydf)
+            print(leglist1,leglist2,leglist3)
+            st.session_state.active = True
+            st.session_state.maindf = journeydf
+            st.session_state.leglist1 = leglist1
+            st.session_state.leglist2 = leglist2
+            st.session_state.leglist3 = leglist3
+            st.session_state.goodtrain1 = int(apireply[3].split(',')[0])
+            st.session_state.goodtrain2 = int(apireply[3].split(',')[1])
+            st.session_state.goodtrain3 = int(apireply[3].split(',')[2])
+            print(st.session_state.goodtrain1,st.session_state.goodtrain2,st.session_state.goodtrain3)
+            st.session_state.weather1 = int(apireply[-2].split(',')[0])
+            st.session_state.weather2 = int(apireply[-2].split(',')[1])
+            st.session_state.weather3 = int(apireply[-2].split(',')[2])
+            st.session_state.delay1 = float(apireply[-1].split(',')[0])
+            st.session_state.delay2 = float(apireply[-1].split(',')[1])
+            st.session_state.delay3 = float(apireply[-1].split(',')[2])
+            st.session_state.proba1 = float(apireply[4].split(',')[0])
+            st.session_state.proba2 = float(apireply[4].split(',')[1])
+            st.session_state.proba3 = float(apireply[4].split(',')[2])
+            st.session_state.checkbox1 = True
+            #st.experimental_rerun()           
+            
         except:
-            train='ICE 109' # have to hardcode this for now, as passing a train that doesnt exist crashes our API
-            apireply = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            #train='ICE 109,ICE 109,ICE 109' # have to hardcode this for now, as passing a train that doesnt exist crashes our API
+            #apireply = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
+            #st.session_state.goodtrain1 = 0 # if train is missing in database, let's assume it's not a good 
+            st.warning('API call failed. No prediction able to be produced at this time. Please change parameters and try again.')
+            end = timer()
+            print(end - start) 
+            st.experimental_rerun()  
 
-            st.session_state.goodtrain1 = 0 # if train is missing in database, let's assume it's not a good train
-    if st.session_state.active == False:
-        st.success('Server reply gathered.')
-    end = timer()
-    print(end - start) 
-    print(apireply[0])
-    # start = timer()
-    # with st.spinner('Now gathering info about the second journey'):
-    #     train = journeydf.Leg1_Train[1]
-    #     try:
-    #         apireply2 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
-    #     except:
-    #         train='ICE 109'
-    #         apireply2 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
-    #         st.session_state.goodtrain2 = 0
-    # if st.session_state.active == False:
-    #     st.success('Second journey completed.')
-    # end = timer()
-    # print(end - start) 
-    # start = timer()
-    # with st.spinner('Almost there now, grabbing information for our third journey'):
-    #     train=journeydf.Leg1_Train[2]
-    #     try:
-    #         apireply3 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
-    #     except:
-    #         train='ICE 109'
-    #         apireply3 = callapi(pickup=start_city, dropoff=end_city,querydate=querydate,train=train)
-    #         st.session_state.goodtrain3 = 0
-    # if st.session_state.active == False:
-    #     st.success('Success! All done')
-    # end = timer()
-    # print(end - start) 
 
-    print(journeydf)
-    print(leglist1,leglist2,leglist3)
-    st.session_state.active = True
-    st.session_state.maindf = journeydf
-    st.session_state.leglist1 = leglist1
-    st.session_state.leglist2 = leglist2
-    st.session_state.leglist3 = leglist3
-    st.session_state.goodtrain1 = int(apireply[3].split(',')[0])
-    st.session_state.goodtrain2 = int(apireply[3].split(',')[1])
-    st.session_state.goodtrain3 = int(apireply[3].split(',')[2])
-    print(st.session_state.goodtrain1,st.session_state.goodtrain2,st.session_state.goodtrain3)
-    st.session_state.weather1 = int(apireply[-2].split(',')[0])
-    st.session_state.weather2 = int(apireply[-2].split(',')[1])
-    st.session_state.weather3 = int(apireply[-2].split(',')[2])
-    st.session_state.delay1 = float(apireply[-1].split(',')[0])
-    st.session_state.delay2 = float(apireply[-1].split(',')[1])
-    st.session_state.delay3 = float(apireply[-1].split(',')[2])
-    st.session_state.proba1 = float(apireply[4].split(',')[0])
-    st.session_state.proba2 = float(apireply[4].split(',')[1])
-    st.session_state.proba3 = float(apireply[4].split(',')[2])
-    st.session_state.checkbox1 = True
-    st.experimental_rerun() 
-
-if st.session_state.active==True:
+if st.session_state.active == True:
     journeydf = st.session_state.maindf
     leglist1 = st.session_state.leglist1
     leglist2 = st.session_state.leglist2
@@ -568,7 +566,7 @@ if st.session_state.active==True:
         st.session_state.checkbox1=False
         st.session_state.checkbox2=False
         st.session_state.checkbox3=True
-
+        
     iconcolpad0,iconcol0,iconcol1, iconcol2, iconcol3 = st.columns([1,3,3,3,3])
     with iconcolpad0:
         st.image('frontend/blackpadding.png',width=30)
@@ -605,7 +603,7 @@ if st.session_state.active==True:
         #     st.markdown('Low confidence')
         #     css_example = '''                                                                                                                                           
         #     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">                                                                                                    
-                                                                                                                                                                                                             
+                                                                                                                                                                                                            
         #     <i class="fa-solid fa-circle-xmark fa-3x" style="color:#FF2C2C"></i>   
         #     ''' 
         #     st.write(css_example, unsafe_allow_html=True) 
@@ -629,10 +627,11 @@ if st.session_state.active==True:
             st.markdown('Bad weather')
             css_example = '''                                                                                                                                           
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">                                                                                                    
-                                                                                                                                                                                                             
+                                                                                                                                                                                                            
             <i class="fa-solid fa-poo-storm fa-2x" style="color:#FF2C2C"></i>   
             ''' 
-            st.write(css_example, unsafe_allow_html=True) 
+            st.write(css_example, unsafe_allow_html=True)
+
     with iconcol3:
         if radiochoice == string1:
             delay =  st.session_state.delay1
@@ -655,13 +654,13 @@ if st.session_state.active==True:
                                                                                                                                                                                                                     
             <i class="fa-solid fa-clock fa-2x" style="color:#FF2C2C"></i>                                                                                                                                                                  
             '''
-            st.write(css_example, unsafe_allow_html=True) 
-    
+            st.write(css_example, unsafe_allow_html=True)  
+
 
     ### MAP
     m = create_map(leglist1=st.session_state.leglist1,leglist2=st.session_state.leglist2,leglist3=st.session_state.leglist3,checkbox1=st.session_state.checkbox1,checkbox2=st.session_state.checkbox2,checkbox3=st.session_state.checkbox3)
-    folium_static(m)    
-    
+    folium_static(m)  
+        
 
 
     ### FOOTER
@@ -694,8 +693,8 @@ if st.session_state.active==True:
     
     
     '''
-    with st.expander('Nerd stuff'):
-         st.markdown("<p style='text-align: center; color: white;'> We gathered data of all train rides between Cologne, Munich and Berlin and combined it with weather information for each ride. We then organized data into a format that could be understood by a machine learning model - for example, we encoded the time and date and name of the train -, and then trained that model on data from the past 2 years. This added another complication, which is that the past two years have been very unusual. So, we filtered data from Covid lockdown periods, and also flagged all major holidays so the model could understand special circumstances like those.<br><br> What is happening behind the scenes here is that we are sending the information you select to Deutsche Bahn, getting a list of journeys and then checking whether our model thinks you will catch a good or bad train. We do that by sending this info to our API, which gathers weather predictions from the future and combines that with other info we have about your ride, producing a prediction.</h1>", unsafe_allow_html=True)
+    with st.expander('Details'):
+         st.markdown("<p style='text-align: center; color: white;'>We gathered records of all high-speed train rides between Cologne, Munich and Berlin in 2020 and 2021 and combined it with historical weather information for each ride. Then, we encoded real-world information in a way that could be understood by a machine learning model - for example, we filtered periods with lockdowns, flagged all major holidays and added variables indicating the week day of a given ride, as all these factors could be relevant for the model's performance. Our tests suggest that the model can predict - with about 80% accuracy - whether a given ride between these three cities will be delayed or not. All that you see here, including training and deploying the model, was built in only two weeks by four developers using open-source tools.<br><br>What is happening behind the scenes here is that we are sending the information input by the user to an API from Deutsche Bahn, which gives us a list of possible journeys on the specified date and time. Then, we send this info to our own API, which gathers weather predictions and combines that with other info we have about your ride, producing a prediction. Due to its dependence on weather, we restrict searches to a period of 15 days from the present.</h1>", unsafe_allow_html=True)
 
 else:
     st.markdown("""
@@ -725,5 +724,5 @@ else:
     
     
     '''
-    with st.expander('Nerd stuff'):
-         st.markdown("<p style='text-align: center; color: white;'> We gathered data of all train rides between Cologne, Munich and Berlin and combined it with weather information for each ride. We then organized data into a format that could be understood by a machine learning model - for example, we encoded the time and date and name of the train -, and then trained that model on data from the past 2 years. This added another complication, which is that the past two years have been very unusual. So, we filtered data from Covid lockdown periods, and also flagged all major holidays so the model could understand special circumstances like those.<br><br> What is happening behind the scenes here is that we are sending the information you select to Deutsche Bahn, getting a list of journeys and then checking whether our model thinks you will catch a good or bad train. We do that by sending this info to our API, which gathers weather predictions from the future and combines that with other info we have about your ride, producing a prediction.</h1>", unsafe_allow_html=True)
+    with st.expander('Details'):
+         st.markdown("<p style='text-align: center; color: white;'>We gathered records of all high-speed train rides between Cologne, Munich and Berlin in 2020 and 2021 and combined it with historical weather information for each ride. Then, we encoded real-world information in a way that could be understood by a machine learning model - for example, we filtered periods with lockdowns, flagged all major holidays and added variables indicating the week day of a given ride, as all these factors could be relevant for the model's performance. Our tests suggest that the model can predict - with about 80% accuracy - whether a given ride between these three cities will be delayed or not. All that you see here, including training and deploying the model, was built in only two weeks by four developers using open-source tools.<br><br>What is happening behind the scenes here is that we are sending the information input by the user to an API from Deutsche Bahn, which gives us a list of possible journeys on the specified date and time. Then, we send this info to our own API, which gathers weather predictions and combines that with other info we have about your ride, producing a prediction. Due to its dependence on weather, we restrict searches to a period of 15 days from the present.</h1>", unsafe_allow_html=True)

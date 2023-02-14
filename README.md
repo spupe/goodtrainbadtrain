@@ -5,13 +5,13 @@ The experience of booking a train with Deutsche Bahn often requires guesswork. A
 
 ## How it works
 
-We gathered data of all train rides in the past 2 years between Cologne, Munich and Berlin and combined it with weather information for each ride. We then organized data into a format that could be understood by a machine learning model - for example, we encoded the time and date and name of the train -, and then trained it using more than 40 features. Because the past two years have been very unusual, we filtered data from Covid lockdown periods, and also flagged all major holidays so the model could understand special circumstances like those.
+We gathered records of all high-speed train rides between Cologne, Munich and Berlin in 2020 and 2021 and combined it with historical weather information for each ride. Then, we encoded real-world information in a way that could be understood by a machine learning model - for example, we filtered periods with lockdowns, flagged all major holidays and added variables indicating the week day of a given ride, as all these factors could be relevant for the model's performance. Our tests suggest that the model can predict - with about 80% accuracy - whether a given ride between these three cities will be delayed or not.
 
-What is happening behind the scenes here is that we are sending the information you select to Deutsche Bahn, getting a list of journeys and then checking whether our model thinks you will catch a good or bad train. We do that by sending this info to our API, which gathers weather predictions from the future and combines that with other info we have about your ride, producing a prediction.
+What is happening behind the scenes here is that we are sending the information input by the user to an API from Deutsche Bahn, which gives us a list of possible journeys on the specified date and time. Then, we send this info to our own API, which gathers weather predictions and combines that with other info we have about your ride, producing a prediction. Due to its dependence on weather, we restrict searches to a period of 15 days from the present.
 
-## Deploy
+## Tech Stack
 
-We developed our frontend with Streamlit, and deployed it with Streamlit. Our API is hosted at GCP. Please check our site here: 
+We developed our app on Python and deployed it with Heroku (2023 update: we are now deployed at streamlit.app). Our model - lightGBM, a flavor of xgboost - was trained using the Keras library, deployed at Google Cloud Platform and made interactive via an API. Please check our site here: https://goodtrainbadtrain.streamlit.app/
 
 ## About us
 
