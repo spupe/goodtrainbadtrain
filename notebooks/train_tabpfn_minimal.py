@@ -35,8 +35,9 @@ from tabpfn import TabPFNClassifier
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
+MODEL_DIR = DATA_DIR / "model"
 ARCHIVE = DATA_DIR / "data.tar.xz"
-CSV_PATH = DATA_DIR / "data_for_model_final.csv"
+CSV_PATH = MODEL_DIR / "data_for_model_final.csv"
 
 DELAY_THRESHOLD_MIN = 15
 RANDOM_STATE = 42
@@ -50,10 +51,11 @@ def ensure_csv() -> Path:
     if not ARCHIVE.exists():
         raise FileNotFoundError(f"Neither {CSV_PATH} nor {ARCHIVE} exists")
     print(f"Extracting {CSV_PATH.name} from {ARCHIVE.name}...")
+    MODEL_DIR.mkdir(parents=True, exist_ok=True)
     with tarfile.open(ARCHIVE, "r:xz") as tar:
         member = tar.getmember(f"data/{CSV_PATH.name}")
         member.name = CSV_PATH.name
-        tar.extract(member, path=DATA_DIR)
+        tar.extract(member, path=MODEL_DIR)
     return CSV_PATH
 
 
