@@ -3,5 +3,6 @@
 .ipynb_checkpoints
 .DS_Store
 raw_data/
+data/data_for_model_final.csv
 **/__pycache__/
 .env
